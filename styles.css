@@ -11,6 +11,10 @@
     --nutrition: #27ae60;
     --education: #2980b9;
     --technology: #8e44ad;
+    --agriculture: #d35400;
+    --environment: #16a085;
+    --infrastructure: #2c3e50;
+    --finance: #f39c12;
     --high: #e74c3c;
     --medium: #f39c12;
     --low: #95a5a6;
@@ -133,6 +137,10 @@ main {
 .tab[data-category="nutrition"].active { background: var(--nutrition); border-color: var(--nutrition); }
 .tab[data-category="education"].active { background: var(--education); border-color: var(--education); }
 .tab[data-category="technology"].active { background: var(--technology); border-color: var(--technology); }
+.tab[data-category="agriculture"].active { background: var(--agriculture); border-color: var(--agriculture); }
+.tab[data-category="environment"].active { background: var(--environment); border-color: var(--environment); }
+.tab[data-category="infrastructure"].active { background: var(--infrastructure); border-color: var(--infrastructure); }
+.tab[data-category="finance"].active { background: var(--finance); border-color: var(--finance); }
 
 #search {
     padding: 0.5rem 1rem;
@@ -229,6 +237,10 @@ main {
 .category-badge.nutrition { background: var(--nutrition); }
 .category-badge.education { background: var(--education); }
 .category-badge.technology { background: var(--technology); }
+.category-badge.agriculture { background: var(--agriculture); }
+.category-badge.environment { background: var(--environment); }
+.category-badge.infrastructure { background: var(--infrastructure); }
+.category-badge.finance { background: var(--finance); }
 
 .market-badge {
     font-size: 0.7rem;

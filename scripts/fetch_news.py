@@ -18,6 +18,10 @@ CATEGORIES = {
     "nutrition": "India nutrition OR India malnutrition OR India food safety",
     "education": "India education issues OR India schools OR India literacy",
     "technology": "India technology OR India digital OR India startup tech",
+    "agriculture": "India agriculture problems OR India farming crisis OR India crop",
+    "environment": "India pollution OR India climate change OR India waste management",
+    "infrastructure": "India infrastructure OR India roads OR India smart city OR India housing",
+    "finance": "India fintech OR India banking rural OR India financial inclusion OR India microfinance",
 }
 
 GOOGLE_NEWS_RSS = "https://news.google.com/rss/search?q={query}&hl=en-IN&gl=IN&ceid=IN:en"
@@ -52,6 +56,30 @@ OPPORTUNITY_TEMPLATES = {
         "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
         "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
     ],
+    "agriculture": [
+        "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+        "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
+        "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
+        "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
+    ],
+    "environment": [
+        "Build a waste-to-energy platform connecting municipal waste generators with recycling facilities.",
+        "Create a carbon credit marketplace for Indian SMEs and agricultural operations.",
+        "Develop affordable air quality monitoring devices for schools and residential communities.",
+        "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
+    ],
+    "infrastructure": [
+        "Create a smart parking and traffic management solution for tier-2 Indian cities.",
+        "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
+        "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
+        "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
+    ],
+    "finance": [
+        "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
+        "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
+        "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
+        "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+    ],
 }
 
 SOLUTION_TEMPLATES = {
@@ -75,10 +103,34 @@ SOLUTION_TEMPLATES = {
         "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
         "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
     ],
+    "agriculture": [
+        "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
+        "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
+        "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
+        "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+    ],
+    "environment": [
+        "Partner with municipal corporations under Swachh Bharat Mission. Use CSR funds from large corporates for initial setup.",
+        "Leverage CCTS (Indian Carbon Trading Scheme) framework. Start with agriculture and renewable energy sectors.",
+        "Collaborate with CPCB for data standards. Distribute through school networks and RWAs for community adoption.",
+        "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
+    ],
+    "infrastructure": [
+        "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
+        "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
+        "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
+        "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
+    ],
+    "finance": [
+        "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
+        "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
+        "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
+        "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
+    ],
 }
 
 
-def fetch_category_news(category: str, query: str, max_items: int = 5) -> list[dict]:
+def fetch_category_news(category: str, query: str, max_items: int = 15) -> list[dict]:
     """Fetch news items from Google News RSS for a category."""
     url = GOOGLE_NEWS_RSS.format(query=query.replace(" ", "+"))
     feed = feedparser.parse(url)
