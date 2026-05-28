@@ -1,0 +1,314 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --health: #e74c3c;
+    --nutrition: #27ae60;
+    --education: #2980b9;
+    --technology: #8e44ad;
+    --high: #e74c3c;
+    --medium: #f39c12;
+    --low: #95a5a6;
+    --bg: #f5f6fa;
+    --card-bg: #ffffff;
+    --text: #2c3e50;
+    --text-light: #7f8c8d;
+    --border: #dcdde1;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    padding: 2rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.subtitle {
+    opacity: 0.85;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.header-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+}
+
+.date-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.date-nav button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.date-nav button:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+#date-picker {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.category-tabs {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 0.45rem 1rem;
+    border: 2px solid var(--border);
+    background: var(--card-bg);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.tab.active {
+    background: #3498db;
+    color: #fff;
+    border-color: #3498db;
+}
+
+.tab[data-category="health"].active { background: var(--health); border-color: var(--health); }
+.tab[data-category="nutrition"].active { background: var(--nutrition); border-color: var(--nutrition); }
+.tab[data-category="education"].active { background: var(--education); border-color: var(--education); }
+.tab[data-category="technology"].active { background: var(--technology); border-color: var(--technology); }
+
+#search {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border);
+    border-radius: 25px;
+    font-size: 0.9rem;
+    width: 250px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+#search:focus {
+    border-color: #3498db;
+}
+
+/* Stats bar */
+.stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.stat-count {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3498db;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+
+/* Issues grid */
+.issues-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.2rem;
+}
+
+.loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-light);
+}
+
+/* Issue card */
+.issue-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.issue-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 1rem 1.2rem 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.category-badge {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.category-badge.health { background: var(--health); }
+.category-badge.nutrition { background: var(--nutrition); }
+.category-badge.education { background: var(--education); }
+.category-badge.technology { background: var(--technology); }
+
+.market-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+}
+
+.market-badge.high { background: #fde8e8; color: var(--high); }
+.market-badge.medium { background: #fef3e2; color: var(--medium); }
+.market-badge.low { background: #eef0f1; color: var(--low); }
+
+.card-body {
+    padding: 0 1.2rem 1.2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.card-body .summary {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 0.8rem;
+}
+
+.opportunity,
+.solution {
+    font-size: 0.85rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.opportunity {
+    background: #eaf7ef;
+    border-left: 3px solid var(--nutrition);
+}
+
+.solution {
+    background: #eef3f9;
+    border-left: 3px solid var(--education);
+}
+
+.opportunity strong,
+.solution strong {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+    color: var(--text-light);
+}
+
+.card-footer {
+    padding: 0.6rem 1.2rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.75rem;
+    color: var(--text-light);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-light);
+    font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 { font-size: 1.3rem; }
+    .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    .issues-grid { grid-template-columns: 1fr; }
+    .controls { flex-direction: column; align-items: stretch; }
+    #search { width: 100%; }
+}

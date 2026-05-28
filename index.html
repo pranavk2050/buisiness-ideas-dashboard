@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Issues &amp; Business Opportunities Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>India Issues &amp; Business Opportunities</h1>
+        <p class="subtitle">Daily insights on health, nutrition, education &amp; technology challenges — with actionable business ideas</p>
+        <div class="header-meta">
+            <span id="last-updated">Last updated: —</span>
+            <div class="date-nav">
+                <button id="prev-date" title="Previous day">&larr;</button>
+                <input type="date" id="date-picker">
+                <button id="next-date" title="Next day">&rarr;</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="controls">
+            <div class="category-tabs">
+                <button class="tab active" data-category="all">All</button>
+                <button class="tab" data-category="health">Health</button>
+                <button class="tab" data-category="nutrition">Nutrition</button>
+                <button class="tab" data-category="education">Education</button>
+                <button class="tab" data-category="technology">Technology</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search issues...">
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-count" id="total-count">0</span>
+                <span class="stat-label">Total Issues</span>
+            </div>
+            <div class="stat">
+                <span class="stat-count" id="high-count">0</span>
+                <span class="stat-label">High Potential</span>
+            </div>
+            <div class="stat">
+                <span class="stat-count" id="medium-count">0</span>
+                <span class="stat-label">Medium Potential</span>
+            </div>
+            <div class="stat">
+                <span class="stat-count" id="low-count">0</span>
+                <span class="stat-label">Low Potential</span>
+            </div>
+        </div>
+
+        <div id="issues-grid" class="issues-grid">
+            <p class="loading">Loading issues...</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Data sourced from Google News RSS &bull; Updated daily via GitHub Actions</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

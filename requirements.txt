@@ -1,0 +1,2 @@
+feedparser>=6.0
+# openai  # uncomment when API key is available
