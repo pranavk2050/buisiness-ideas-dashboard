@@ -253,11 +253,11 @@ def enrich_with_ideas(issues: list[dict]) -> list[dict]:
                 issue["business_opportunity"] = result["business_opportunity"]
                 issue["solution"] = result["solution"]
                 issue["market_potential"] = result["market_potential"]
-                print(f"    [{i+1}/{len(issues)}] {issue['title'][:50]}... ✓")
+                print(f"    [{i+1}/{len(issues)}] {issue['title'][:50]}... OK")
             else:
                 enrich_with_templates(issue, i)
                 print(f"    [{i+1}/{len(issues)}] {issue['title'][:50]}... (template fallback)")
-            time.sleep(0.5)  # Rate limit: stay within Groq free tier (30 req/min)
+            time.sleep(2)  # Rate limit: stay within Groq free tier (30 req/min)
     else:
         print("  No GROQ_API_KEY found — using template fallback...")
         for i, issue in enumerate(issues):
