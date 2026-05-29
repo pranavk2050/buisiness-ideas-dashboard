@@ -110,14 +110,7 @@
 
     // Chart rendering
     function renderCharts(issues) {
-        if (typeof Chart === "undefined") {
-            // Chart.js not loaded yet — retry once it loads
-            const cdnScript = document.querySelector('script[src*="chart.js"]');
-            if (cdnScript) {
-                cdnScript.addEventListener("load", () => renderCharts(issues), { once: true });
-            }
-            return;
-        }
+        if (typeof Chart === "undefined") return;
 
         // Destroy existing charts
         Object.values(chartInstances).forEach(c => c.destroy());
