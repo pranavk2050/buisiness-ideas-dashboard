@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Auth overlay -->
+    <div id="auth-overlay" class="auth-overlay">
+        <div class="auth-box">
+            <h2>Dashboard Access</h2>
+            <p>Enter password to continue</p>
+            <input type="password" id="auth-password" placeholder="Password" autofocus>
+            <label class="auth-remember"><input type="checkbox" id="auth-remember" checked> Remember me</label>
+            <button id="auth-submit">Unlock</button>
+            <p id="auth-error" class="auth-error"></p>
+        </div>
+    </div>
+
     <header>
         <h1>India Issues &amp; Business Opportunities</h1>
         <p class="subtitle">Daily insights on health, nutrition, education, technology, agriculture, environment, infrastructure &amp; finance challenges — with actionable business ideas</p>

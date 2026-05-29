@@ -1,4 +1,44 @@
 (() => {
+    // --- Authentication ---
+    const AUTH_HASH = "99d698031b563511ab90ddc15cdd768b55acefa314626f4a172049c156439d3f"; // SHA-256 of password
+
+    async function sha256(text) {
+        const data = new TextEncoder().encode(text);
+        const hash = await crypto.subtle.digest("SHA-256", data);
+        return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+    }
+
+    function checkAuth() {
+        const overlay = document.getElementById("auth-overlay");
+        if (localStorage.getItem("auth_token") === AUTH_HASH) {
+            overlay.classList.add("hidden");
+            return;
+        }
+        overlay.classList.remove("hidden");
+
+        const input = document.getElementById("auth-password");
+        const btn = document.getElementById("auth-submit");
+        const error = document.getElementById("auth-error");
+        const remember = document.getElementById("auth-remember");
+
+        async function tryLogin() {
+            const hash = await sha256(input.value);
+            if (hash === AUTH_HASH) {
+                if (remember.checked) localStorage.setItem("auth_token", AUTH_HASH);
+                overlay.classList.add("hidden");
+            } else {
+                error.textContent = "Incorrect password";
+                input.value = "";
+                input.focus();
+            }
+        }
+
+        btn.addEventListener("click", tryLogin);
+        input.addEventListener("keydown", e => { if (e.key === "Enter") tryLogin(); });
+    }
+
+    checkAuth();
+
     const grid = document.getElementById("issues-grid");
     const searchInput = document.getElementById("search");
     const datePicker = document.getElementById("date-picker");

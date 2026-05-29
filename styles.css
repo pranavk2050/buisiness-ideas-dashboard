@@ -49,6 +49,78 @@
     color-scheme: dark;
 }
 
+/* Auth overlay */
+.auth-overlay {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-overlay.hidden { display: none; }
+.auth-box {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    width: 340px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.auth-box h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+    color: #2c3e50;
+}
+.auth-box > p {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-bottom: 1.2rem;
+}
+.auth-box input[type="password"] {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: 2px solid #dcdde1;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+    margin-bottom: 0.8rem;
+}
+.auth-box input[type="password"]:focus {
+    border-color: #3498db;
+}
+.auth-remember {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 0.82rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.auth-box button {
+    width: 100%;
+    padding: 0.7rem;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.auth-box button:hover { opacity: 0.9; }
+.auth-error {
+    color: #e74c3c;
+    font-size: 0.82rem;
+    margin-top: 0.8rem;
+    min-height: 1.2em;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, sans-serif;
     background: var(--bg);
