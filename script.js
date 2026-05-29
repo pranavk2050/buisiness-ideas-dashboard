@@ -12,8 +12,10 @@
         const overlay = document.getElementById("auth-overlay");
         if (localStorage.getItem("auth_token") === AUTH_HASH) {
             overlay.classList.add("hidden");
+            document.body.classList.remove("locked");
             return;
         }
+        document.body.classList.add("locked");
         overlay.classList.remove("hidden");
 
         const input = document.getElementById("auth-password");
@@ -26,6 +28,7 @@
             if (hash === AUTH_HASH) {
                 if (remember.checked) localStorage.setItem("auth_token", AUTH_HASH);
                 overlay.classList.add("hidden");
+                document.body.classList.remove("locked");
             } else {
                 error.textContent = "Incorrect password";
                 input.value = "";

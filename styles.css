@@ -49,6 +49,13 @@
     color-scheme: dark;
 }
 
+/* Auth: hide dashboard until authenticated */
+body.locked header,
+body.locked main,
+body.locked footer {
+    display: none !important;
+}
+
 /* Auth overlay */
 .auth-overlay {
     position: fixed;
