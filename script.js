@@ -127,8 +127,15 @@
 
         chartInstances.category = new Chart(document.getElementById("category-chart"), {
             type: "doughnut",
-            data: { labels: catLabels.map(l => l.charAt(0).toUpperCase() + l.slice(1)), datasets: [{ data: catData, backgroundColor: catColors, borderWidth: 2, borderColor: "#fff" }] },
-            options: { responsive: true, plugins: { legend: { position: "bottom", labels: { boxWidth: 12, padding: 8, font: { size: 11 } } } } }
+            data: {
+                labels: catLabels.map(l => l.charAt(0).toUpperCase() + l.slice(1)),
+                datasets: [{ data: catData, backgroundColor: catColors, borderWidth: 2, borderColor: "#fff" }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: "bottom", labels: { boxWidth: 12, padding: 8, font: { size: 11 } } } }
+            }
         });
 
         // 2. Market potential (bar)
@@ -141,7 +148,12 @@
                 labels: ["High", "Medium", "Low"],
                 datasets: [{ label: "Issues", data: [potCounts.high, potCounts.medium, potCounts.low], backgroundColor: ["#e74c3c", "#f39c12", "#95a5a6"], borderRadius: 6 }]
             },
-            options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } } }
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }
+            }
         });
 
         // 3. Daily trend (line)
@@ -155,7 +167,12 @@
                 labels: sortedDates,
                 datasets: [{ label: "Issues per day", data: sortedDates.map(d => dateCounts[d]), borderColor: "#3498db", backgroundColor: "rgba(52,152,219,0.1)", fill: true, tension: 0.3, pointRadius: 4, pointBackgroundColor: "#3498db" }]
             },
-            options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } } }
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }
+            }
         });
 
         // 4. Category-wise opportunities (horizontal bar)
@@ -165,7 +182,13 @@
                 labels: catLabels.map(l => l.charAt(0).toUpperCase() + l.slice(1)),
                 datasets: [{ label: "Opportunities", data: catData, backgroundColor: catColors, borderRadius: 6 }]
             },
-            options: { indexAxis: "y", responsive: true, plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true, ticks: { stepSize: 1 } } } }
+            options: {
+                indexAxis: "y",
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { x: { beginAtZero: true, ticks: { stepSize: 1 } } }
+            }
         });
     }
 
