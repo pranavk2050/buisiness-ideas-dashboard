@@ -261,6 +261,22 @@ main {
     background: rgba(255, 255, 255, 0.35);
 }
 
+/* Logout button */
+.logout-btn {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.logout-btn:hover {
+    background: rgba(231, 76, 60, 0.6);
+}
+
 /* Controls right */
 .controls-right {
     display: flex;

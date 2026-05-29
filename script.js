@@ -409,6 +409,12 @@
     // Theme toggle
     document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
 
+    // Logout
+    document.getElementById("logout-btn").addEventListener("click", () => {
+        localStorage.removeItem("auth_token");
+        location.reload();
+    });
+
     // Export buttons
     document.getElementById("export-csv").addEventListener("click", exportCSV);
     document.getElementById("export-print").addEventListener("click", () => window.print());
