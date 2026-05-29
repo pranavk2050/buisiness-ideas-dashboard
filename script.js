@@ -284,27 +284,30 @@
         }
 
         grid.innerHTML = filtered.map(issue => `
-            <article class="issue-card">
+            <article class="issue-card" onclick="window.__expandCard(this)">
                 <div class="card-header">
                     <span class="category-badge ${issue.category}">${issue.category}</span>
                     <div style="display:flex;align-items:center;gap:0.4rem">
                         <span class="market-badge ${issue.market_potential}">${issue.market_potential} potential</span>
-                        <button class="bookmark-btn ${bookmarks.has(issue.id) ? "active" : ""}" onclick="window.__toggleBookmark('${issue.id}')" title="${bookmarks.has(issue.id) ? "Remove bookmark" : "Bookmark this idea"}">
+                        <button class="bookmark-btn ${bookmarks.has(issue.id) ? "active" : ""}" onclick="event.stopPropagation();window.__toggleBookmark('${issue.id}')" title="${bookmarks.has(issue.id) ? "Remove bookmark" : "Bookmark this idea"}">
                             ${bookmarks.has(issue.id) ? "&#9733;" : "&#9734;"}
                         </button>
                     </div>
                 </div>
                 <div class="card-body">
                     <h3>${escapeHtml(issue.title)}</h3>
-                    <p class="summary">${escapeHtml(issue.summary)}</p>
-                    <div class="opportunity">
-                        <strong>Business Opportunity</strong>
-                        ${escapeHtml(issue.business_opportunity)}
+                    <div class="card-details">
+                        <p class="summary">${escapeHtml(issue.summary)}</p>
+                        <div class="opportunity">
+                            <strong>Business Opportunity</strong>
+                            ${escapeHtml(issue.business_opportunity)}
+                        </div>
+                        <div class="solution">
+                            <strong>Suggested Solution</strong>
+                            ${escapeHtml(issue.solution)}
+                        </div>
                     </div>
-                    <div class="solution">
-                        <strong>Suggested Solution</strong>
-                        ${escapeHtml(issue.solution)}
-                    </div>
+                    <span class="expand-hint">Click to expand</span>
                 </div>
                 <div class="card-footer">
                     <span>${issue.source || "Google News"}</span>
@@ -367,8 +370,11 @@
     document.getElementById("export-csv").addEventListener("click", exportCSV);
     document.getElementById("export-print").addEventListener("click", () => window.print());
 
-    // Expose bookmark toggle for onclick in card HTML
+    // Expose bookmark toggle and card expand for onclick in card HTML
     window.__toggleBookmark = toggleBookmark;
+    window.__expandCard = function(el) {
+        el.classList.toggle("expanded");
+    };
 
     loadData();
     renderResources();

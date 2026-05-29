@@ -303,11 +303,38 @@ main {
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .issue-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Collapsed state (default) */
+.issue-card .card-details {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.issue-card .expand-hint {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    text-align: center;
+    display: block;
+    padding-top: 0.3rem;
+}
+
+/* Expanded state */
+.issue-card.expanded .card-details {
+    max-height: 600px;
+    opacity: 1;
+}
+
+.issue-card.expanded .expand-hint {
+    display: none;
 }
 
 .card-header {
