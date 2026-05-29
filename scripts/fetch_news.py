@@ -5,10 +5,12 @@ import json
 import hashlib
 import os
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 import html as html_module
+import requests
 
 import feedparser
 
@@ -173,35 +175,93 @@ def deduplicate(issues: list[dict]) -> list[dict]:
     return unique
 
 
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+
+
+def call_groq(title: str, summary: str, category: str, api_key: str) -> dict | None:
+    """Call Groq API to generate contextual business opportunity and solution."""
+    prompt = f"""You are an Indian startup business analyst. Analyze this news issue and provide a specific, actionable business opportunity and practical solution relevant to the Indian market.
+
+News Title: {title}
+Summary: {summary}
+Category: {category}
+
+Respond ONLY with valid JSON (no markdown, no code blocks):
+{{"business_opportunity": "A specific 2-3 sentence business idea directly related to this news issue, with target audience and revenue model", "solution": "A practical 2-3 sentence implementation plan mentioning relevant Indian government schemes, partnerships, or ecosystem players", "market_potential": "high or medium or low based on urgency and market size"}}"""
+
+    try:
+        resp = requests.post(
+            GROQ_API_URL,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": GROQ_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.7,
+                "max_tokens": 300,
+            },
+            timeout=15,
+        )
+        resp.raise_for_status()
+        content = resp.json()["choices"][0]["message"]["content"].strip()
+        # Strip markdown code blocks if present
+        if content.startswith("```"):
+            content = re.sub(r"^```(?:json)?\s*", "", content)
+            content = re.sub(r"\s*```$", "", content)
+        result = json.loads(content)
+        # Validate required fields
+        if all(k in result for k in ("business_opportunity", "solution", "market_potential")):
+            if result["market_potential"] not in ("high", "medium", "low"):
+                result["market_potential"] = "medium"
+            return result
+    except Exception as e:
+        print(f"    Groq API error: {e}")
+    return None
+
+
+def enrich_with_templates(issue: dict, index: int) -> None:
+    """Fallback: assign business ideas from templates."""
+    cat = issue["category"]
+    templates_opp = OPPORTUNITY_TEMPLATES.get(cat, OPPORTUNITY_TEMPLATES["technology"])
+    templates_sol = SOLUTION_TEMPLATES.get(cat, SOLUTION_TEMPLATES["technology"])
+    idx = index % len(templates_opp)
+
+    issue["business_opportunity"] = templates_opp[idx]
+    issue["solution"] = templates_sol[idx]
+
+    title_lower = issue["title"].lower()
+    if any(w in title_lower for w in ["crisis", "urgent", "critical", "shortage", "death"]):
+        issue["market_potential"] = "high"
+    elif any(w in title_lower for w in ["new", "launch", "grow", "rise", "plan"]):
+        issue["market_potential"] = "medium"
+    else:
+        issue["market_potential"] = "medium"
+
+
 def enrich_with_ideas(issues: list[dict]) -> list[dict]:
-    """Add business opportunity and solution using templates.
+    """Add business opportunity and solution using Groq LLM (with template fallback)."""
+    api_key = os.environ.get("GROQ_API_KEY", "").strip()
 
-    When an OpenAI API key is available, this function can be updated to call
-    the API for more contextual analysis:
-
-        import openai
-        openai.api_key = os.environ.get("OPENAI_API_KEY")
-        response = openai.ChatCompletion.create(...)
-    """
-    openai_key = os.environ.get("OPENAI_API_KEY")
-
-    for i, issue in enumerate(issues):
-        cat = issue["category"]
-        templates_opp = OPPORTUNITY_TEMPLATES.get(cat, OPPORTUNITY_TEMPLATES["technology"])
-        templates_sol = SOLUTION_TEMPLATES.get(cat, SOLUTION_TEMPLATES["technology"])
-        idx = i % len(templates_opp)
-
-        issue["business_opportunity"] = templates_opp[idx]
-        issue["solution"] = templates_sol[idx]
-
-        # Simple market potential heuristic
-        title_lower = issue["title"].lower()
-        if any(w in title_lower for w in ["crisis", "urgent", "critical", "shortage", "death"]):
-            issue["market_potential"] = "high"
-        elif any(w in title_lower for w in ["new", "launch", "grow", "rise", "plan"]):
-            issue["market_potential"] = "medium"
-        else:
-            issue["market_potential"] = "medium"
+    if api_key:
+        print(f"  Using Groq API ({GROQ_MODEL}) for contextual analysis...")
+        for i, issue in enumerate(issues):
+            result = call_groq(issue["title"], issue["summary"], issue["category"], api_key)
+            if result:
+                issue["business_opportunity"] = result["business_opportunity"]
+                issue["solution"] = result["solution"]
+                issue["market_potential"] = result["market_potential"]
+                print(f"    [{i+1}/{len(issues)}] {issue['title'][:50]}... ✓")
+            else:
+                enrich_with_templates(issue, i)
+                print(f"    [{i+1}/{len(issues)}] {issue['title'][:50]}... (template fallback)")
+            time.sleep(0.5)  # Rate limit: stay within Groq free tier (30 req/min)
+    else:
+        print("  No GROQ_API_KEY found — using template fallback...")
+        for i, issue in enumerate(issues):
+            enrich_with_templates(issue, i)
 
     return issues
 
