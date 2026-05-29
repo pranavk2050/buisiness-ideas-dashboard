@@ -57,15 +57,47 @@
             </div>
         </div>
 
+        <section id="charts-section" class="charts-section">
+            <h2 class="section-title">Analytics Overview</h2>
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h3>Category Distribution</h3>
+                    <canvas id="category-chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Market Potential</h3>
+                    <canvas id="potential-chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Daily Trend</h3>
+                    <canvas id="trend-chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Category-wise Opportunities</h3>
+                    <canvas id="opportunity-chart"></canvas>
+                </div>
+            </div>
+        </section>
+
         <div id="issues-grid" class="issues-grid">
             <p class="loading">Loading issues...</p>
         </div>
+
+        <section id="resources-section" class="resources-section">
+            <h2 class="section-title">Resources & Opportunities</h2>
+            <div class="resources-tabs">
+                <button class="resource-tab active" data-resource="govt">Government Schemes</button>
+                <button class="resource-tab" data-resource="funding">Funding & Investors</button>
+            </div>
+            <div id="resources-content" class="resources-grid"></div>
+        </section>
     </main>
 
     <footer>
         <p>Data sourced from Google News RSS &bull; Updated daily via GitHub Actions</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

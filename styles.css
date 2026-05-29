@@ -316,6 +316,147 @@ footer {
     font-size: 0.8rem;
 }
 
+/* Section titles */
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+/* Charts section */
+.charts-section {
+    margin-bottom: 2rem;
+}
+
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+
+.chart-container {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container canvas {
+    flex: 1;
+}
+
+.chart-container h3 {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+/* Resources section */
+.resources-section {
+    margin-top: 2rem;
+}
+
+.resources-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.resource-tab {
+    padding: 0.5rem 1.2rem;
+    border: 2px solid var(--border);
+    background: var(--card-bg);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.resource-tab:hover {
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.resource-tab.active {
+    background: #3498db;
+    color: #fff;
+    border-color: #3498db;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.resource-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-left: 4px solid var(--border);
+}
+
+.resource-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.resource-card.health { border-left-color: var(--health); }
+.resource-card.nutrition { border-left-color: var(--nutrition); }
+.resource-card.education { border-left-color: var(--education); }
+.resource-card.technology { border-left-color: var(--technology); }
+.resource-card.agriculture { border-left-color: var(--agriculture); }
+.resource-card.environment { border-left-color: var(--environment); }
+.resource-card.infrastructure { border-left-color: var(--infrastructure); }
+.resource-card.finance { border-left-color: var(--finance); }
+.resource-card.general { border-left-color: #3498db; }
+
+.resource-card .resource-category {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 12px;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.resource-card h4 {
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+}
+
+.resource-card p {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+}
+
+.resource-card .resource-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.82rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.resource-card .resource-link:hover {
+    text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     header h1 { font-size: 1.3rem; }
@@ -323,4 +464,6 @@ footer {
     .issues-grid { grid-template-columns: 1fr; }
     .controls { flex-direction: column; align-items: stretch; }
     #search { width: 100%; }
+    .charts-grid { grid-template-columns: 1fr; }
+    .resources-grid { grid-template-columns: 1fr; }
 }
