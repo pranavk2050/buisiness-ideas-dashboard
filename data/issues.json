@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "issues": [
     {
       "id": "60611fe32438",
@@ -13,58 +13,14 @@
       "market_potential": "medium"
     },
     {
-      "id": "21f5f89b675c",
-      "title": "NURA Expands South India Presence with Launch of Preventive Health Screening Centre in Chennai",
-      "summary": "NURA Expands South India Presence with Launch of Preventive Health Screening Centre in Chennai IndiaMedToday",
-      "category": "health",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Create a health insurance micro-product for low-income families with simple claim processes via mobile apps.",
-      "solution": "Integrate with Ayushman Bharat scheme for subsidized access. Build trust via local language support and community health camps.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "e007aa06308d",
-      "title": "Masterchef India Pankaj Bhadouria's breast cancer diagnosis: Importance of preventive healthcare",
-      "summary": "Masterchef India Pankaj Bhadouria's breast cancer diagnosis: Importance of preventive healthcare TheHealthSite",
-      "category": "health",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
-      "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
-      "market_potential": "medium"
-    },
-    {
       "id": "c398b20d430c",
       "title": "UK Digital Health Firm Voy Enters India Through EarlyFit Acquisition to Tap Growing Obesity Care Market",
       "summary": "UK Digital Health Firm Voy Enters India Through EarlyFit Acquisition to Tap Growing Obesity Care Market eHealth Magazine",
       "category": "health",
       "source": "Google News",
       "date": "2026-05-25",
-      "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
-      "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "afad80947282",
-      "title": "Transforming Healthcare Delivery Through Artificial Intelligence",
-      "summary": "Transforming Healthcare Delivery Through Artificial Intelligence PIB",
-      "category": "health",
-      "source": "Google News",
-      "date": "2026-02-13",
       "business_opportunity": "Create a health insurance micro-product for low-income families with simple claim processes via mobile apps.",
       "solution": "Integrate with Ayushman Bharat scheme for subsidized access. Build trust via local language support and community health camps.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "692d934ec1df",
-      "title": "India’s Health System: The Broken Promise of Primary Care",
-      "summary": "India’s Health System: The Broken Promise of Primary Care Frontline Magazine",
-      "category": "health",
-      "source": "Google News",
-      "date": "2026-04-15",
-      "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
-      "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
       "market_potential": "medium"
     },
     {
@@ -74,6 +30,17 @@
       "category": "health",
       "source": "Google News",
       "date": "2026-05-27",
+      "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
+      "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "21f5f89b675c",
+      "title": "NURA Expands South India Presence with Launch of Preventive Health Screening Centre in Chennai",
+      "summary": "NURA Expands South India Presence with Launch of Preventive Health Screening Centre in Chennai IndiaMedToday",
+      "category": "health",
+      "source": "Google News",
+      "date": "2026-05-28",
       "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
       "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
       "market_potential": "medium"
@@ -90,23 +57,23 @@
       "market_potential": "medium"
     },
     {
-      "id": "f8b4130f39b0",
-      "title": "India Issues Travel Advisory For Ebola-Hit Countries: How Airport Screenings Help Control Outbreaks",
-      "summary": "India Issues Travel Advisory For Ebola-Hit Countries: How Airport Screenings Help Control Outbreaks NDTV",
+      "id": "e007aa06308d",
+      "title": "Masterchef India Pankaj Bhadouria's breast cancer diagnosis: Importance of preventive healthcare",
+      "summary": "Masterchef India Pankaj Bhadouria's breast cancer diagnosis: Importance of preventive healthcare TheHealthSite",
       "category": "health",
       "source": "Google News",
-      "date": "2026-05-25",
+      "date": "2026-05-28",
       "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
       "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
       "market_potential": "medium"
     },
     {
-      "id": "41a5da3d49e2",
-      "title": "India shows health and digital health is the best investment",
-      "summary": "India shows health and digital health is the best investment The World Economic Forum",
+      "id": "7f484ac8229a",
+      "title": "World Health Assembly 2026: Union Health Minister JP Nadda Reaffirms India's Commitment To Universal Health Coverage",
+      "summary": "World Health Assembly 2026: Union Health Minister JP Nadda Reaffirms India's Commitment To Universal Health Coverage NDTV",
       "category": "health",
       "source": "Google News",
-      "date": "2026-01-18",
+      "date": "2026-05-26",
       "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
       "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
       "market_potential": "medium"
@@ -123,14 +90,25 @@
       "market_potential": "medium"
     },
     {
-      "id": "132ed0c85d26",
-      "title": "Transforming Health in India: The 2030 Innovations Agenda",
-      "summary": "Transforming Health in India: The 2030 Innovations Agenda orfonline.org",
+      "id": "91db579f0683",
+      "title": "AIIMS Raipur Holds Major Sickle Cell Awareness Drive, Focuses on Women and Maternal Health",
+      "summary": "AIIMS Raipur Holds Major Sickle Cell Awareness Drive, Focuses on Women and Maternal Health PIB",
       "category": "health",
       "source": "Google News",
-      "date": "2025-09-29",
+      "date": "2026-05-07",
       "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
       "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "692d934ec1df",
+      "title": "India’s Health System: The Broken Promise of Primary Care",
+      "summary": "India’s Health System: The Broken Promise of Primary Care Frontline Magazine",
+      "category": "health",
+      "source": "Google News",
+      "date": "2026-04-15",
+      "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
+      "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
       "market_potential": "medium"
     },
     {
@@ -140,19 +118,30 @@
       "category": "health",
       "source": "Google News",
       "date": "2026-04-23",
-      "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
-      "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
+      "business_opportunity": "Create a health insurance micro-product for low-income families with simple claim processes via mobile apps.",
+      "solution": "Integrate with Ayushman Bharat scheme for subsidized access. Build trust via local language support and community health camps.",
       "market_potential": "high"
     },
     {
-      "id": "6fc7dc9ff20a",
-      "title": "Nipah virus fact sheet",
-      "summary": "Nipah virus fact sheet World Health Organization (WHO)",
+      "id": "c3a6b96317b0",
+      "title": "Centre Hosts National Conference On Rare Diseases To Strengthen India’s Healthcare Framework",
+      "summary": "Centre Hosts National Conference On Rare Diseases To Strengthen India’s Healthcare Framework The CSR Journal",
       "category": "health",
       "source": "Google News",
-      "date": "2026-01-29",
-      "business_opportunity": "Create a health insurance micro-product for low-income families with simple claim processes via mobile apps.",
-      "solution": "Integrate with Ayushman Bharat scheme for subsidized access. Build trust via local language support and community health camps.",
+      "date": "2026-05-06",
+      "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
+      "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "41a5da3d49e2",
+      "title": "India shows health and digital health is the best investment",
+      "summary": "India shows health and digital health is the best investment The World Economic Forum",
+      "category": "health",
+      "source": "Google News",
+      "date": "2026-01-18",
+      "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
+      "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
       "market_potential": "medium"
     },
     {
@@ -162,30 +151,19 @@
       "category": "health",
       "source": "Google News",
       "date": "2026-03-19",
-      "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
-      "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
+      "business_opportunity": "Create a health insurance micro-product for low-income families with simple claim processes via mobile apps.",
+      "solution": "Integrate with Ayushman Bharat scheme for subsidized access. Build trust via local language support and community health camps.",
       "market_potential": "high"
     },
     {
-      "id": "152276b40451",
-      "title": "India’s Plastic Waste law signals “structural shift” for recycling sector",
-      "summary": "India’s Plastic Waste law signals “structural shift” for recycling sector Packaging Insights",
-      "category": "nutrition",
+      "id": "6fc7dc9ff20a",
+      "title": "Nipah virus fact sheet",
+      "summary": "Nipah virus fact sheet World Health Organization (WHO)",
+      "category": "health",
       "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
-      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "95e1762e5361",
-      "title": "FSSAI tightens food safety rules for besan, seafood and seed oils",
-      "summary": "FSSAI tightens food safety rules for besan, seafood and seed oils The Times of India",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
-      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "date": "2026-01-29",
+      "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
+      "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
       "market_potential": "medium"
     },
     {
@@ -195,19 +173,52 @@
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-05-20",
+      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
+      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "0b11f9ec1470",
+      "title": "PIL seeking systemic strengthening of FSSAI functioning: SC issues notice to Ministry of Health, CAG & FSSAI",
+      "summary": "PIL seeking systemic strengthening of FSSAI functioning: SC issues notice to Ministry of Health, CAG & FSSAI The New Indian Express",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-05-29",
+      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
+      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "2d4e239dd600",
+      "title": "Supreme Court Issues Notice To Union, FSSAI On Plea Seeking Turnover-Based Penalty For Sale Of Unsafe And ...",
+      "summary": "Supreme Court Issues Notice To Union, FSSAI On Plea Seeking Turnover-Based Penalty For Sale Of Unsafe And ... Live Law",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-05-29",
       "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
       "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
       "market_potential": "medium"
     },
     {
-      "id": "25619ca767b9",
-      "title": "Camel Rescued from Illegal Sacrifice Ahead of Eid in Budaun Following Joint Action by PETA India and People for Animals Public Policy Foundation",
-      "summary": "Camel Rescued from Illegal Sacrifice Ahead of Eid in Budaun Following Joint Action by PETA India and People for Animals Public Policy Foundation PETA India",
+      "id": "95e1762e5361",
+      "title": "FSSAI tightens food safety rules for besan, seafood and seed oils",
+      "summary": "FSSAI tightens food safety rules for besan, seafood and seed oils The Times of India",
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-05-28",
       "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
       "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "152276b40451",
+      "title": "India’s Plastic Waste law signals “structural shift” for recycling sector",
+      "summary": "India’s Plastic Waste law signals “structural shift” for recycling sector Packaging Insights",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-05-28",
+      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
+      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
       "market_potential": "medium"
     },
     {
@@ -217,14 +228,36 @@
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-05-27",
+      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
+      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "e6af31202828",
+      "title": "IRCTC staff caught washing utensils in Duronto Express toilet, FSSAI steps in",
+      "summary": "IRCTC staff caught washing utensils in Duronto Express toilet, FSSAI steps in India Today",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-05-29",
+      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
+      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "9f2988f18701",
+      "title": "Supreme Court pulls up Centre over food safety failures, seeks audit",
+      "summary": "Supreme Court pulls up Centre over food safety failures, seeks audit The Economic Times",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-05-28",
       "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
       "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
       "market_potential": "medium"
     },
     {
-      "id": "a50fbbd23639",
-      "title": "India, South Korea Advance IK CEPA Upgrade Talks",
-      "summary": "India, South Korea Advance IK CEPA Upgrade Talks GK Today",
+      "id": "25619ca767b9",
+      "title": "Camel Rescued from Illegal Sacrifice Ahead of Eid in Budaun Following Joint Action by PETA India and People for Animals Public Policy Foundation",
+      "summary": "Camel Rescued from Illegal Sacrifice Ahead of Eid in Budaun Following Joint Action by PETA India and People for Animals Public Policy Foundation PETA India",
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-05-28",
@@ -233,14 +266,36 @@
       "market_potential": "medium"
     },
     {
-      "id": "bb29d443c281",
-      "title": "FSSAI Tightens Food Safety Norms for Besan, Oils, Seafood and Seed Products – 28 May 2026",
-      "summary": "FSSAI Tightens Food Safety Norms for Besan, Oils, Seafood and Seed Products – 28 May 2026 heraldgoa.in",
+      "id": "ab296c0d528a",
+      "title": "FSSAI Issues Notice To IRCTC Over Viral Video Of Utensils Washed In Train Toilet",
+      "summary": "FSSAI Issues Notice To IRCTC Over Viral Video Of Utensils Washed In Train Toilet NDTV Profit",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-05-29",
+      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
+      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "d7b8168bae82",
+      "title": "‘Highly objectionable’: FSSAI issues notice to IRCTC over viral video of utensils being ‘washed’ in train toilet | India News",
+      "summary": "‘Highly objectionable’: FSSAI issues notice to IRCTC over viral video of utensils being ‘washed’ in train toilet | India News Hindustan Times",
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-05-28",
-      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
-      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
+      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "7bb873a0e0af",
+      "title": "FSSAI issues notice to IRCTC after video shows staff washing utensils in train toilet; seeks explanation",
+      "summary": "FSSAI issues notice to IRCTC after video shows staff washing utensils in train toilet; seeks explanation ANI News",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-05-28",
+      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
+      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
       "market_potential": "medium"
     },
     {
@@ -250,8 +305,8 @@
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-04-07",
-      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
-      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
+      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
       "market_potential": "medium"
     },
     {
@@ -261,19 +316,8 @@
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-05-16",
-      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
-      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "22f5d5ca879a",
-      "title": "Offshore betting leads India’s ad violations list; realty, personal care follow",
-      "summary": "Offshore betting leads India’s ad violations list; realty, personal care follow bestmediainfo.com",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
-      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
+      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
       "market_potential": "medium"
     },
     {
@@ -283,50 +327,6 @@
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-03-13",
-      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
-      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "b80477466a85",
-      "title": "FSSAI Demands IRCTC Clarify Unhygienic Train Catering Practices",
-      "summary": "FSSAI Demands IRCTC Clarify Unhygienic Train Catering Practices Devdiscourse",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
-      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "a0d93606d451",
-      "title": "World Hunger Day 2026: How Food Banks Reshape Food Security In India",
-      "summary": "World Hunger Day 2026: How Food Banks Reshape Food Security In India Slurrp",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-05-27",
-      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
-      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "212fabb3df48",
-      "title": "Herbalife India's Analytical Laboratory recognised for 'Outstanding Performance on Food Safety' at CII Food Safety Awards",
-      "summary": "Herbalife India's Analytical Laboratory recognised for 'Outstanding Performance on Food Safety' at CII Food Safety Awards PR Newswire",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-05-04",
-      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
-      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "247b2bba9a23",
-      "title": "India-Netherlands Joint Statement on the visit of Prime Minister of India to Netherlands (May 16-17, 2026)",
-      "summary": "India-Netherlands Joint Statement on the visit of Prime Minister of India to Netherlands (May 16-17, 2026) Ministry of External Affairs",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-05-16",
       "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
       "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
       "market_potential": "medium"
@@ -343,47 +343,25 @@
       "market_potential": "medium"
     },
     {
-      "id": "742e535db733",
-      "title": "Education in India – A Detailed Analysis",
-      "summary": "Education in India – A Detailed Analysis ClearIAS",
-      "category": "education",
-      "source": "Google News",
-      "date": "2026-05-11",
-      "business_opportunity": "Create a vocational training marketplace connecting skilled trainers with youth in tier-2/3 cities.",
-      "solution": "Use NSDC (National Skill Development Corporation) framework for certification. Partner with local industries for placement.",
-      "market_potential": "medium"
-    },
-    {
       "id": "0af9d13dfb0b",
       "title": "Sikkim Achieves Full Literacy: A Landmark in Education",
       "summary": "Sikkim Achieves Full Literacy: A Landmark in Education Devdiscourse",
       "category": "education",
       "source": "Google News",
       "date": "2026-05-28",
-      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
-      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "023bad09c523",
-      "title": "India launches one of the World’s largest ‘AI Literacy for Teachers’ Program",
-      "summary": "India launches one of the World’s largest ‘AI Literacy for Teachers’ Program India Education Diary",
-      "category": "education",
-      "source": "Google News",
-      "date": "2026-05-08",
-      "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
-      "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "02fdfabcf5de",
-      "title": "AI in Education",
-      "summary": "AI in Education PIB",
-      "category": "education",
-      "source": "Google News",
-      "date": "2026-03-03",
       "business_opportunity": "Create a vocational training marketplace connecting skilled trainers with youth in tier-2/3 cities.",
       "solution": "Use NSDC (National Skill Development Corporation) framework for certification. Partner with local industries for placement.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "776160e76b7e",
+      "title": "Shri Dharmendra Pradhan launches School Management Committee (SMC) Guidelines in New Delhi",
+      "summary": "Shri Dharmendra Pradhan launches School Management Committee (SMC) Guidelines in New Delhi PIB",
+      "category": "education",
+      "source": "Google News",
+      "date": "2026-05-06",
+      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
+      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
       "market_potential": "medium"
     },
     {
@@ -393,17 +371,6 @@
       "category": "education",
       "source": "Google News",
       "date": "2026-01-15",
-      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
-      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "2dfcc3e02ad1",
-      "title": "Coding as literacy: How China and India are engineering the workforce of the 2040s",
-      "summary": "Coding as literacy: How China and India are engineering the workforce of the 2040s The Hindu",
-      "category": "education",
-      "source": "Google News",
-      "date": "2026-01-22",
       "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
       "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
       "market_potential": "medium"
@@ -420,14 +387,25 @@
       "market_potential": "medium"
     },
     {
+      "id": "2dfcc3e02ad1",
+      "title": "Coding as literacy: How China and India are engineering the workforce of the 2040s",
+      "summary": "Coding as literacy: How China and India are engineering the workforce of the 2040s The Hindu",
+      "category": "education",
+      "source": "Google News",
+      "date": "2026-01-22",
+      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
+      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
+      "market_potential": "medium"
+    },
+    {
       "id": "b2db3f424d29",
       "title": "RFAs: Strengthening Foundational Literacy and Numeracy in Purnia District (India)",
       "summary": "RFAs: Strengthening Foundational Literacy and Numeracy in Purnia District (India) fundsforNGOs",
       "category": "education",
       "source": "Google News",
       "date": "2026-04-01",
-      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
-      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
+      "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
+      "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
       "market_potential": "medium"
     },
     {
@@ -437,8 +415,8 @@
       "category": "education",
       "source": "Google News",
       "date": "2026-01-26",
-      "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
-      "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
+      "business_opportunity": "Create a vocational training marketplace connecting skilled trainers with youth in tier-2/3 cities.",
+      "solution": "Use NSDC (National Skill Development Corporation) framework for certification. Partner with local industries for placement.",
       "market_potential": "medium"
     },
     {
@@ -448,6 +426,28 @@
       "category": "education",
       "source": "Google News",
       "date": "2026-04-19",
+      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
+      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "b5bd848a7d57",
+      "title": "Literacy rate among population over 15 years of age in India from 2022 to 2023, by gender",
+      "summary": "Literacy rate among population over 15 years of age in India from 2022 to 2023, by gender Statista",
+      "category": "education",
+      "source": "Google News",
+      "date": "2026-01-26",
+      "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
+      "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "02fdfabcf5de",
+      "title": "AI in Education",
+      "summary": "AI in Education PIB",
+      "category": "education",
+      "source": "Google News",
+      "date": "2026-03-03",
       "business_opportunity": "Create a vocational training marketplace connecting skilled trainers with youth in tier-2/3 cities.",
       "solution": "Use NSDC (National Skill Development Corporation) framework for certification. Partner with local industries for placement.",
       "market_potential": "medium"
@@ -464,25 +464,14 @@
       "market_potential": "medium"
     },
     {
-      "id": "af8bc2183ac6",
-      "title": "Unemployment rate across India from 2022 to 2025, by education level",
-      "summary": "Unemployment rate across India from 2022 to 2025, by education level Statista",
-      "category": "education",
-      "source": "Google News",
-      "date": "2026-04-13",
-      "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
-      "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
-      "market_potential": "medium"
-    },
-    {
       "id": "53eb0f8dea59",
       "title": "India’s ‘100% literacy by 2030’ goal hits Bihar wall",
       "summary": "India’s ‘100% literacy by 2030’ goal hits Bihar wall The Indian Express",
       "category": "education",
       "source": "Google News",
       "date": "2025-12-19",
-      "business_opportunity": "Create a vocational training marketplace connecting skilled trainers with youth in tier-2/3 cities.",
-      "solution": "Use NSDC (National Skill Development Corporation) framework for certification. Partner with local industries for placement.",
+      "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
+      "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
       "market_potential": "medium"
     },
     {
@@ -492,30 +481,19 @@
       "category": "education",
       "source": "Google News",
       "date": "2026-01-14",
+      "business_opportunity": "Create a vocational training marketplace connecting skilled trainers with youth in tier-2/3 cities.",
+      "solution": "Use NSDC (National Skill Development Corporation) framework for certification. Partner with local industries for placement.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "d871d677c33f",
+      "title": "UPSC Editorial Analysis: The Imperative of Early Climate Education",
+      "summary": "UPSC Editorial Analysis: The Imperative of Early Climate Education INSIGHTS IAS",
+      "category": "education",
+      "source": "Google News",
+      "date": "2026-01-14",
       "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
       "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "3e79d61627ee",
-      "title": "Swiggy CEO on quick commerce space; India’s data centre surge",
-      "summary": "Swiggy CEO on quick commerce space; India’s data centre surge The Economic Times",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "ae1da4442a5d",
-      "title": "Goyal highlights India’s booming startup ecosystem during Canada visit",
-      "summary": "Goyal highlights India’s booming startup ecosystem during Canada visit The Statesman",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
       "market_potential": "medium"
     },
     {
@@ -525,14 +503,135 @@
       "category": "technology",
       "source": "Google News",
       "date": "2026-05-26",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "fc7762a387f9",
+      "title": "As AI Adoption Accelerates in India, Mumbai Emerges as a Key Technology Hub",
+      "summary": "As AI Adoption Accelerates in India, Mumbai Emerges as a Key Technology Hub The Economic Times",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-28",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "23e4ffca7312",
+      "title": "India’s Startup Market Swung From a Q1 2026 Funding Boom to an April Freeze. What Changed?",
+      "summary": "India’s Startup Market Swung From a Q1 2026 Funding Boom to an April Freeze. What Changed? Techloy",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-28",
       "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
       "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "ae1da4442a5d",
+      "title": "Goyal highlights India’s booming startup ecosystem during Canada visit",
+      "summary": "Goyal highlights India’s booming startup ecosystem during Canada visit The Statesman",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-28",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "17137bedcce6",
+      "title": "Anthropic Ropes In Ex-Microsoft Sangeeta Bavi To Helm Startups, Growth In India",
+      "summary": "Anthropic Ropes In Ex-Microsoft Sangeeta Bavi To Helm Startups, Growth In India Inc42",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-27",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
       "market_potential": "medium"
     },
     {
       "id": "b10e3994f0f1",
       "title": "CEO of European startup Lovable funded by US tech giants makes fun of Google, Meta, Microsoft over layoff",
       "summary": "CEO of European startup Lovable funded by US tech giants makes fun of Google, Meta, Microsoft over layoff The Times of India",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-28",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "d7b7ddc17d96",
+      "title": "IISc, Wadhwani Innovation Centre To Support Deep-tech Startups & Research",
+      "summary": "IISc, Wadhwani Innovation Centre To Support Deep-tech Startups & Research BW Education",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-28",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "67931ba2e84d",
+      "title": "Cabinet approves Startup India Fund of Funds 2.0 to Mobilize Venture Capital for India’s Startup Ecosystem",
+      "summary": "Cabinet approves Startup India Fund of Funds 2.0 to Mobilize Venture Capital for India’s Startup Ecosystem PM India",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-02-14",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "1739d9df5761",
+      "title": "Anthropic Appoints Sangeeta Bavi to Lead Startups, Growth in India",
+      "summary": "Anthropic Appoints Sangeeta Bavi to Lead Startups, Growth in India Analytics India Magazine",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-27",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "2001164ab701",
+      "title": "Anthropic Strengthens India Growth Push with Sangeeta Bavi Leading Startup and Digital Native Ecosystem",
+      "summary": "Anthropic Strengthens India Growth Push with Sangeeta Bavi Leading Startup and Digital Native Ecosystem CXO Digitalpulse",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-28",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "f6f0277d26c9",
+      "title": "Bharat Innovates 2026: From a Bengaluru Lab to Nice. Meet the Startup Bringing AI-Powered Diagnostics to Underserved India",
+      "summary": "Bharat Innovates 2026: From a Bengaluru Lab to Nice. Meet the Startup Bringing AI-Powered Diagnostics to Underserved India YourStory.com",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-27",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "273c65e50632",
+      "title": "Hyderabad startup Abyom completes India’s first in-house reusable rocket engine test",
+      "summary": "Hyderabad startup Abyom completes India’s first in-house reusable rocket engine test Telangana Today",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-05-27",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "3e79d61627ee",
+      "title": "Swiggy CEO on quick commerce space; India’s data centre surge",
+      "summary": "Swiggy CEO on quick commerce space; India’s data centre surge The Economic Times",
       "category": "technology",
       "source": "Google News",
       "date": "2026-05-28",
@@ -552,111 +651,12 @@
       "market_potential": "medium"
     },
     {
-      "id": "2001164ab701",
-      "title": "Anthropic Strengthens India Growth Push with Sangeeta Bavi Leading Startup and Digital Native Ecosystem",
-      "summary": "Anthropic Strengthens India Growth Push with Sangeeta Bavi Leading Startup and Digital Native Ecosystem CXO Digitalpulse",
+      "id": "9637a4cff8ae",
+      "title": "From financial services to healthcare, enterprises driving AI adoption in India are all in Mumbai: TEAM",
+      "summary": "From financial services to healthcare, enterprises driving AI adoption in India are all in Mumbai: TEAM The Economic Times",
       "category": "technology",
       "source": "Google News",
       "date": "2026-05-28",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "14e02bc34980",
-      "title": "'They Quietly Wiped Out 30% Of The Team': Viral CRED Layoff Allegations Spark Fresh Debate On India’s Start",
-      "summary": "'They Quietly Wiped Out 30% Of The Team': Viral CRED Layoff Allegations Spark Fresh Debate On India’s Start News18",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "23e4ffca7312",
-      "title": "India’s Startup Market Swung From a Q1 2026 Funding Boom to an April Freeze. What Changed?",
-      "summary": "India’s Startup Market Swung From a Q1 2026 Funding Boom to an April Freeze. What Changed? Techloy",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "4a7371676c58",
-      "title": "Nagpur-based Drone Startup ZeroDrag Technologies Raises Rs 6.5 Cr From Transition VC",
-      "summary": "Nagpur-based Drone Startup ZeroDrag Technologies Raises Rs 6.5 Cr From Transition VC BW Disrupt",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "12583010b461",
-      "title": "Career Paths After B.Tech. CSE: What Can You Actually Do With This Degree?",
-      "summary": "Career Paths After B.Tech. CSE: What Can You Actually Do With This Degree? LPU",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-25",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "1739d9df5761",
-      "title": "Anthropic Appoints Sangeeta Bavi to Lead Startups, Growth in India",
-      "summary": "Anthropic Appoints Sangeeta Bavi to Lead Startups, Growth in India Analytics India Magazine",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-27",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "67931ba2e84d",
-      "title": "Cabinet approves Startup India Fund of Funds 2.0 to Mobilize Venture Capital for India’s Startup Ecosystem",
-      "summary": "Cabinet approves Startup India Fund of Funds 2.0 to Mobilize Venture Capital for India’s Startup Ecosystem PM India",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-02-14",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "4ad060304c21",
-      "title": "Singapore Hands Byju's Founder His First Ever Jail Term",
-      "summary": "Singapore Hands Byju's Founder His First Ever Jail Term Bloomberg.com",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-27",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "631d2dffe39e",
-      "title": "Why founders across India are signing up for the One of a Kind Startup Awards 2026",
-      "summary": "Why founders across India are signing up for the One of a Kind Startup Awards 2026 The Economic Times",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "17137bedcce6",
-      "title": "Anthropic Ropes In Ex-Microsoft Sangeeta Bavi To Helm Startups, Growth In India",
-      "summary": "Anthropic Ropes In Ex-Microsoft Sangeeta Bavi To Helm Startups, Growth In India Inc42",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-05-27",
       "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
       "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
       "market_potential": "medium"
@@ -673,36 +673,47 @@
       "market_potential": "medium"
     },
     {
-      "id": "424489a543f7",
-      "title": "German-Based HAS to Invest Nearly EUR1 Million in Nano-Agriculture Solutions for Indian Farmers Amid Fertiliser Concerns",
-      "summary": "German-Based HAS to Invest Nearly EUR1 Million in Nano-Agriculture Solutions for Indian Farmers Amid Fertiliser Concerns ThePrint",
+      "id": "3bd63ed8eec0",
+      "title": "ADM scales farm forward initiative in India with TechnoServe Partnership, targeting 15,000 new soybean farmers",
+      "summary": "ADM scales farm forward initiative in India with TechnoServe Partnership, targeting 15,000 new soybean farmers Asia Food Journal",
       "category": "agriculture",
       "source": "Google News",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
       "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
       "market_potential": "medium"
     },
     {
-      "id": "3c2b5cfa9bba",
-      "title": "New study decodes India’s agricultural origins in Ganga Plain using grass pollen",
-      "summary": "New study decodes India’s agricultural origins in Ganga Plain using grass pollen DD News",
+      "id": "5d0967ecbcb2",
+      "title": "India Has Sufficient Food Stocks, Says Shivraj Singh Chouhan",
+      "summary": "India Has Sufficient Food Stocks, Says Shivraj Singh Chouhan The Indian Awaaz",
       "category": "agriculture",
       "source": "Google News",
-      "date": "2026-05-27",
+      "date": "2026-05-28",
       "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
       "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
       "market_potential": "medium"
     },
     {
-      "id": "5fce5a9f2f4a",
-      "title": "ADM scales Farm Forward initiative in India with TechnoServe partnership targeting 15,000 soybean farmers",
-      "summary": "ADM scales Farm Forward initiative in India with TechnoServe partnership targeting 15,000 soybean farmers Agro Spectrum India",
+      "id": "c6e625673f23",
+      "title": "Economic Distress Main Driver Behind Farmer Suicides in India, Study Finds",
+      "summary": "Economic Distress Main Driver Behind Farmer Suicides in India, Study Finds Global Agriculture",
       "category": "agriculture",
       "source": "Google News",
       "date": "2026-05-28",
       "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
       "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "1a69f303a0ec",
+      "title": "Tamil Nadu global model for integrated farming, finds study",
+      "summary": "Tamil Nadu global model for integrated farming, finds study DT Next",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-05-29",
+      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
       "market_potential": "medium"
     },
     {
@@ -712,52 +723,30 @@
       "category": "agriculture",
       "source": "Google News",
       "date": "2026-05-27",
-      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
-      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "3426613f5f4b",
-      "title": "5% Rainfall Variation Linked to 810 Farmer Suicides Annually Across Five Indian States: 2023 IIED Study",
-      "summary": "5% Rainfall Variation Linked to 810 Farmer Suicides Annually Across Five Indian States: 2023 IIED Study Global Agriculture",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-05-27",
       "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
       "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
       "market_potential": "medium"
     },
     {
-      "id": "67d4134a25b0",
-      "title": "Heat, Debt, Migration: The Real Drivers of India’s Farm Crisis",
-      "summary": "Heat, Debt, Migration: The Real Drivers of India’s Farm Crisis Countercurrents",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-05-26",
-      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
-      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
-      "market_potential": "high"
-    },
-    {
-      "id": "596354418c27",
-      "title": "China Rejects Indian Rice Exports Even as India Denies GMO Presence, Traders Question Selective Scrutiny",
-      "summary": "China Rejects Indian Rice Exports Even as India Denies GMO Presence, Traders Question Selective Scrutiny TheWire.in",
+      "id": "424489a543f7",
+      "title": "German-Based HAS to Invest Nearly EUR1 Million in Nano-Agriculture Solutions for Indian Farmers Amid Fertiliser Concerns",
+      "summary": "German-Based HAS to Invest Nearly EUR1 Million in Nano-Agriculture Solutions for Indian Farmers Amid Fertiliser Concerns ThePrint",
       "category": "agriculture",
       "source": "Google News",
       "date": "2026-05-28",
-      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
-      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
+      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
       "market_potential": "medium"
     },
     {
-      "id": "723da3020611",
-      "title": "ADM expands regenerative agriculture work in India with new TechnoServe soy farming partnership",
-      "summary": "ADM expands regenerative agriculture work in India with new TechnoServe soy farming partnership FoodBev Media",
+      "id": "3c2b5cfa9bba",
+      "title": "New study decodes India’s agricultural origins in Ganga Plain using grass pollen",
+      "summary": "New study decodes India’s agricultural origins in Ganga Plain using grass pollen DD News",
       "category": "agriculture",
       "source": "Google News",
-      "date": "2026-05-28",
-      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
-      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
+      "date": "2026-05-27",
+      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
+      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
       "market_potential": "medium"
     },
     {
@@ -767,8 +756,8 @@
       "category": "agriculture",
       "source": "Google News",
       "date": "2026-04-03",
-      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
-      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
+      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
       "market_potential": "high"
     },
     {
@@ -778,8 +767,8 @@
       "category": "agriculture",
       "source": "Google News",
       "date": "2025-12-10",
-      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
-      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
+      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
+      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
       "market_potential": "high"
     },
     {
@@ -789,19 +778,19 @@
       "category": "agriculture",
       "source": "Google News",
       "date": "2026-04-15",
-      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
-      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
+      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
       "market_potential": "medium"
     },
     {
-      "id": "d844805e61f1",
-      "title": "Agricultural Distress in India, Causes, Impacts, Schemes, Measures",
-      "summary": "Agricultural Distress in India, Causes, Impacts, Schemes, Measures Vajiram & Ravi",
+      "id": "723da3020611",
+      "title": "ADM expands regenerative agriculture work in India with new TechnoServe soy farming partnership",
+      "summary": "ADM expands regenerative agriculture work in India with new TechnoServe soy farming partnership FoodBev Media",
       "category": "agriculture",
       "source": "Google News",
-      "date": "2026-05-22",
-      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
-      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
+      "date": "2026-05-28",
+      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
+      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
       "market_potential": "medium"
     },
     {
@@ -811,19 +800,19 @@
       "category": "agriculture",
       "source": "Google News",
       "date": "2026-05-26",
-      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
-      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
+      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
       "market_potential": "medium"
     },
     {
-      "id": "b5e7db6d7520",
-      "title": "Artificial Intelligence (AI) Transforming Indian Agriculture",
-      "summary": "Artificial Intelligence (AI) Transforming Indian Agriculture PIB",
+      "id": "03c91517f107",
+      "title": "Press Note Details",
+      "summary": "Press Note Details PIB",
       "category": "agriculture",
       "source": "Google News",
       "date": "2026-02-14",
-      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
-      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
+      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
+      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
       "market_potential": "medium"
     },
     {
@@ -833,8 +822,8 @@
       "category": "environment",
       "source": "Google News",
       "date": "2026-05-28",
-      "business_opportunity": "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
-      "solution": "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
+      "business_opportunity": "Develop affordable air quality monitoring devices for schools and residential communities.",
+      "solution": "Collaborate with CPCB for data standards. Distribute through school networks and RWAs for community adoption.",
       "market_potential": "high"
     },
     {
@@ -844,6 +833,17 @@
       "category": "environment",
       "source": "Google News",
       "date": "2026-05-25",
+      "business_opportunity": "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
+      "solution": "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "d7d3047797e5",
+      "title": "International Cooperation on Plastic Pollution | Plastics and the Environment Series",
+      "summary": "International Cooperation on Plastic Pollution | Plastics and the Environment Series Geneva Environment Network",
+      "category": "environment",
+      "source": "Google News",
+      "date": "2026-05-20",
       "business_opportunity": "Build a waste-to-energy platform connecting municipal waste generators with recycling facilities.",
       "solution": "Partner with municipal corporations under Swachh Bharat Mission. Use CSR funds from large corporates for initial setup.",
       "market_potential": "medium"
@@ -871,15 +871,15 @@
       "market_potential": "high"
     },
     {
-      "id": "03c91517f107",
-      "title": "Press Note Details",
-      "summary": "Press Note Details PIB",
+      "id": "ba4945ec4870",
+      "title": "Tackling India’s waste crisis",
+      "summary": "Tackling India’s waste crisis Priestley Centre for Climate Futures",
       "category": "environment",
       "source": "Google News",
-      "date": "2026-04-07",
+      "date": "2026-05-20",
       "business_opportunity": "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
       "solution": "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
-      "market_potential": "medium"
+      "market_potential": "high"
     },
     {
       "id": "b56e3990dfa1",
@@ -915,15 +915,26 @@
       "market_potential": "high"
     },
     {
-      "id": "1e0eaafd601d",
-      "title": "How climate change is reshaping the global plastic pollution crisis",
-      "summary": "How climate change is reshaping the global plastic pollution crisis PreventionWeb.net",
+      "id": "016f90254e55",
+      "title": "India’s waste economy runs on invisible workers. Climate policy keeps forgetting them",
+      "summary": "India’s waste economy runs on invisible workers. Climate policy keeps forgetting them Down To Earth",
       "category": "environment",
       "source": "Google News",
-      "date": "2026-02-12",
+      "date": "2026-05-15",
       "business_opportunity": "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
       "solution": "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
-      "market_potential": "high"
+      "market_potential": "medium"
+    },
+    {
+      "id": "caf529214f74",
+      "title": "India’s New Waste Management Rules: A Watershed Reform That Must Not Be Wasted",
+      "summary": "India’s New Waste Management Rules: A Watershed Reform That Must Not Be Wasted Moneylife",
+      "category": "environment",
+      "source": "Google News",
+      "date": "2026-04-20",
+      "business_opportunity": "Build a waste-to-energy platform connecting municipal waste generators with recycling facilities.",
+      "solution": "Partner with municipal corporations under Swachh Bharat Mission. Use CSR funds from large corporates for initial setup.",
+      "market_potential": "medium"
     },
     {
       "id": "57a2111bb7fe",
@@ -932,42 +943,9 @@
       "category": "environment",
       "source": "Google News",
       "date": "2026-01-28",
-      "business_opportunity": "Build a waste-to-energy platform connecting municipal waste generators with recycling facilities.",
-      "solution": "Partner with municipal corporations under Swachh Bharat Mission. Use CSR funds from large corporates for initial setup.",
-      "market_potential": "high"
-    },
-    {
-      "id": "5ebf1774ac2f",
-      "title": "Ocean pollution and marine debris",
-      "summary": "Ocean pollution and marine debris NOAA (.gov)",
-      "category": "environment",
-      "source": "Google News",
-      "date": "2026-02-11",
       "business_opportunity": "Create a carbon credit marketplace for Indian SMEs and agricultural operations.",
       "solution": "Leverage CCTS (Indian Carbon Trading Scheme) framework. Start with agriculture and renewable energy sectors.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "d7d3047797e5",
-      "title": "International Cooperation on Plastic Pollution | Plastics and the Environment Series",
-      "summary": "International Cooperation on Plastic Pollution | Plastics and the Environment Series Geneva Environment Network",
-      "category": "environment",
-      "source": "Google News",
-      "date": "2026-03-30",
-      "business_opportunity": "Develop affordable air quality monitoring devices for schools and residential communities.",
-      "solution": "Collaborate with CPCB for data standards. Distribute through school networks and RWAs for community adoption.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "0e1455576ff5",
-      "title": "Navigating India’s waste management transition: Overlapping mandates and informality shape implementation challenges",
-      "summary": "Navigating India’s waste management transition: Overlapping mandates and informality shape implementation challenges Down To Earth",
-      "category": "environment",
-      "source": "Google News",
-      "date": "2026-03-17",
-      "business_opportunity": "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
-      "solution": "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
-      "market_potential": "medium"
+      "market_potential": "high"
     },
     {
       "id": "9903745c0bbc",
@@ -976,8 +954,8 @@
       "category": "environment",
       "source": "Google News",
       "date": "2026-02-27",
-      "business_opportunity": "Build a waste-to-energy platform connecting municipal waste generators with recycling facilities.",
-      "solution": "Partner with municipal corporations under Swachh Bharat Mission. Use CSR funds from large corporates for initial setup.",
+      "business_opportunity": "Develop affordable air quality monitoring devices for schools and residential communities.",
+      "solution": "Collaborate with CPCB for data standards. Distribute through school networks and RWAs for community adoption.",
       "market_potential": "medium"
     },
     {
@@ -987,8 +965,8 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-05-24",
-      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
-      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
+      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
+      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
       "market_potential": "medium"
     },
     {
@@ -998,28 +976,6 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-05-27",
-      "business_opportunity": "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
-      "solution": "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "9ca8ef7a81bd",
-      "title": "Schneider Electric to deploy smart home solutions in Hyderabad",
-      "summary": "Schneider Electric to deploy smart home solutions in Hyderabad Construction Week India",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-05-27",
-      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
-      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "7e20abc1872b",
-      "title": "NBCC Crosses ₹10,000 Crore Revenue Mark in FY26: What It Means for India’s Infrastructure",
-      "summary": "NBCC Crosses ₹10,000 Crore Revenue Mark in FY26: What It Means for India’s Infrastructure SMEStreet",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-05-25",
       "business_opportunity": "Create a smart parking and traffic management solution for tier-2 Indian cities.",
       "solution": "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
       "market_potential": "medium"
@@ -1036,47 +992,36 @@
       "market_potential": "medium"
     },
     {
-      "id": "5c312b97d581",
-      "title": "Experience Smart Infrastructure & Modern Living in Dholera",
-      "summary": "Experience Smart Infrastructure & Modern Living in Dholera Golden Dream Infratech Pvt LTD.",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-05-22",
-      "business_opportunity": "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
-      "solution": "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "d60dcf482740",
-      "title": "Amazon Launches Echo Dot Max, Echo Studio In India at a Price of Rs 10,999 and Rs 23,999 Respectively",
-      "summary": "Amazon Launches Echo Dot Max, Echo Studio In India at a Price of Rs 10,999 and Rs 23,999 Respectively Mashable India",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-05-27",
-      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
-      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
-      "market_potential": "medium"
-    },
-    {
       "id": "5c1fe4ace087",
       "title": "Amazon Echo Dot Max and Echo Studio launched in India at ₹10,999, featuring Alexa voice, Dolby Atmos, Wi-Fi, and smart home hub support",
       "summary": "Amazon Echo Dot Max and Echo Studio launched in India at ₹10,999, featuring Alexa voice, Dolby Atmos, Wi-Fi, and smart home hub support MobiGyaan",
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-05-27",
-      "business_opportunity": "Create a smart parking and traffic management solution for tier-2 Indian cities.",
-      "solution": "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
+      "business_opportunity": "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
+      "solution": "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
       "market_potential": "medium"
     },
     {
-      "id": "6350985fca51",
-      "title": "India’s Path to Smart and Sustainable Cities",
-      "summary": "India’s Path to Smart and Sustainable Cities Drishti IAS",
+      "id": "37a0c8267c60",
+      "title": "Premium Residential & Commercial Plots in India’s First Greenfield Smart City",
+      "summary": "Premium Residential & Commercial Plots in India’s First Greenfield Smart City Golden Dream Infratech Pvt LTD.",
       "category": "infrastructure",
       "source": "Google News",
-      "date": "2026-03-20",
-      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
-      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
+      "date": "2026-05-18",
+      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
+      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "cfaae4ffde13",
+      "title": "Smart infrastructure as the future of real estate development",
+      "summary": "Smart infrastructure as the future of real estate development Fortune India",
+      "category": "infrastructure",
+      "source": "Google News",
+      "date": "2026-05-05",
+      "business_opportunity": "Create a smart parking and traffic management solution for tier-2 Indian cities.",
+      "solution": "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
       "market_potential": "medium"
     },
     {
@@ -1086,8 +1031,30 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-03-03",
+      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
+      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "6350985fca51",
+      "title": "India’s Path to Smart and Sustainable Cities",
+      "summary": "India’s Path to Smart and Sustainable Cities Drishti IAS",
+      "category": "infrastructure",
+      "source": "Google News",
+      "date": "2026-03-20",
       "business_opportunity": "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
       "solution": "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "49a700729cca",
+      "title": "India, Russia bolster cooperation for urban transformation at III Smart Cities Forum",
+      "summary": "India, Russia bolster cooperation for urban transformation at III Smart Cities Forum ANI News",
+      "category": "infrastructure",
+      "source": "Google News",
+      "date": "2026-03-24",
+      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
+      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
       "market_potential": "medium"
     },
     {
@@ -1097,8 +1064,8 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-04-24",
-      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
-      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
+      "business_opportunity": "Create a smart parking and traffic management solution for tier-2 Indian cities.",
+      "solution": "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
       "market_potential": "medium"
     },
     {
@@ -1108,8 +1075,8 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-02-17",
-      "business_opportunity": "Create a smart parking and traffic management solution for tier-2 Indian cities.",
-      "solution": "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
+      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
+      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
       "market_potential": "medium"
     },
     {
@@ -1119,8 +1086,19 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-03-27",
-      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
-      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
+      "business_opportunity": "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
+      "solution": "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "5d7e855afe99",
+      "title": "77Pillar enters Dholera smart city real estate",
+      "summary": "77Pillar enters Dholera smart city real estate Construction Week India",
+      "category": "infrastructure",
+      "source": "Google News",
+      "date": "2026-04-02",
+      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
+      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
       "market_potential": "medium"
     },
     {
@@ -1130,8 +1108,8 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2026-02-17",
-      "business_opportunity": "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
-      "solution": "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
+      "business_opportunity": "Create a smart parking and traffic management solution for tier-2 Indian cities.",
+      "solution": "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
       "market_potential": "medium"
     },
     {
@@ -1141,8 +1119,8 @@
       "category": "infrastructure",
       "source": "Google News",
       "date": "2025-12-16",
-      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
-      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
+      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
+      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
       "market_potential": "medium"
     },
     {
@@ -1152,8 +1130,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-04-20",
-      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
-      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
+      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
+      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
       "market_potential": "medium"
     },
     {
@@ -1163,8 +1141,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-01-29",
-      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
-      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
+      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
       "market_potential": "medium"
     },
     {
@@ -1174,8 +1152,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2025-10-29",
-      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
-      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
+      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
+      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
       "market_potential": "medium"
     },
     {
@@ -1185,8 +1163,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-03-03",
-      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
-      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
+      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
+      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
       "market_potential": "medium"
     },
     {
@@ -1196,8 +1174,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-03-10",
-      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
-      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
+      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
+      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
       "market_potential": "medium"
     },
     {
@@ -1207,8 +1185,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2025-12-15",
-      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
-      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
+      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
       "market_potential": "medium"
     },
     {
@@ -1218,8 +1196,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2025-09-30",
-      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
-      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
+      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
+      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
       "market_potential": "medium"
     },
     {
@@ -1229,8 +1207,19 @@
       "category": "finance",
       "source": "Google News",
       "date": "2025-12-29",
-      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
-      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
+      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
+      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "0e4434102f62",
+      "title": "Microfinance in India: Fueling Small Business Growth",
+      "summary": "Microfinance in India: Fueling Small Business Growth IBEF",
+      "category": "finance",
+      "source": "Google News",
+      "date": "2025-07-02",
+      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
+      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
       "market_potential": "medium"
     },
     {
@@ -1240,20 +1229,9 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-04-08",
-      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
-      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
+      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
       "market_potential": "high"
-    },
-    {
-      "id": "0e4434102f62",
-      "title": "Microfinance in India: Fueling Small Business Growth",
-      "summary": "Microfinance in India: Fueling Small Business Growth IBEF",
-      "category": "finance",
-      "source": "Google News",
-      "date": "2025-07-02",
-      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
-      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
-      "market_potential": "medium"
     },
     {
       "id": "ee5cb3769381",
@@ -1262,8 +1240,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2025-08-23",
-      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
-      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
+      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
+      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
       "market_potential": "medium"
     },
     {
@@ -1273,8 +1251,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-04-19",
-      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
-      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
+      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
+      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
       "market_potential": "medium"
     },
     {
@@ -1284,8 +1262,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-01-16",
-      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
-      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
+      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
+      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
       "market_potential": "medium"
     },
     {
@@ -1295,8 +1273,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-01-30",
-      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
-      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
+      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
       "market_potential": "medium"
     },
     {
@@ -1306,8 +1284,8 @@
       "category": "finance",
       "source": "Google News",
       "date": "2026-03-23",
-      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
-      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
+      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
+      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
       "market_potential": "medium"
     }
   ]
