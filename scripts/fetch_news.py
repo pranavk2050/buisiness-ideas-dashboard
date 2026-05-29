@@ -282,15 +282,41 @@ def main():
     all_issues = deduplicate(all_issues)
     all_issues = enrich_with_ideas(all_issues)
 
-    output = {
-        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-        "issues": all_issues,
-    }
-
     out_path = Path(__file__).parent.parent / "data" / "issues.json"
     out_path.parent.mkdir(exist_ok=True)
+
+    # Merge with existing data (historical accumulation)
+    existing_issues = []
+    if out_path.exists():
+        try:
+            existing_data = json.loads(out_path.read_text(encoding="utf-8"))
+            existing_issues = existing_data.get("issues", [])
+            print(f"  Loaded {len(existing_issues)} existing issues")
+        except Exception:
+            pass
+
+    # Merge: new issues take priority (by id), keep old ones that aren't duplicates
+    new_ids = {issue["id"] for issue in all_issues}
+    merged = list(all_issues)
+    for old_issue in existing_issues:
+        if old_issue["id"] not in new_ids:
+            merged.append(old_issue)
+
+    # Cap at 500 issues, keep newest first (sort by date descending, then trim)
+    merged.sort(key=lambda x: x.get("date", ""), reverse=True)
+    if len(merged) > 500:
+        merged = merged[:500]
+        print(f"  Capped to 500 issues (removed {len(merged) - 500} oldest)")
+
+    print(f"  Total after merge: {len(merged)} issues ({len(all_issues)} new + {len(merged) - len(all_issues)} historical)")
+
+    output = {
+        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "issues": merged,
+    }
+
     out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Wrote {len(all_issues)} issues to {out_path}")
+    print(f"Wrote {len(merged)} issues to {out_path}")
 
 
 if __name__ == "__main__":

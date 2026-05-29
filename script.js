@@ -11,6 +11,71 @@
     let activeCategory = "all";
     let chartInstances = {};
 
+    // Bookmarks (persisted in localStorage)
+    let bookmarks = new Set(JSON.parse(localStorage.getItem("bookmarks") || "[]"));
+
+    function saveBookmarks() {
+        localStorage.setItem("bookmarks", JSON.stringify([...bookmarks]));
+    }
+
+    function toggleBookmark(id) {
+        if (bookmarks.has(id)) bookmarks.delete(id);
+        else bookmarks.add(id);
+        saveBookmarks();
+        render();
+    }
+
+    // Dark mode
+    function initTheme() {
+        const saved = localStorage.getItem("theme");
+        if (saved) {
+            document.documentElement.setAttribute("data-theme", saved);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        }
+        updateThemeIcon();
+    }
+
+    function toggleTheme() {
+        const current = document.documentElement.getAttribute("data-theme");
+        const next = current === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", next);
+        localStorage.setItem("theme", next);
+        updateThemeIcon();
+    }
+
+    function updateThemeIcon() {
+        const btn = document.getElementById("theme-toggle");
+        const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+        btn.innerHTML = isDark ? "&#9788;" : "&#9790;";
+    }
+
+    // Export CSV
+    function exportCSV() {
+        const filtered = getFilteredIssues();
+        if (!filtered.length) return;
+        const headers = ["Title", "Category", "Market Potential", "Business Opportunity", "Solution", "Date", "Source"];
+        const csvContent = [
+            headers.join(","),
+            ...filtered.map(i => [
+                `"${(i.title || "").replace(/"/g, '""')}"`,
+                i.category,
+                i.market_potential,
+                `"${(i.business_opportunity || "").replace(/"/g, '""')}"`,
+                `"${(i.solution || "").replace(/"/g, '""')}"`,
+                i.date,
+                i.source || "Google News"
+            ].join(","))
+        ].join("\n");
+        const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = `business-opportunities-${new Date().toISOString().split("T")[0]}.csv`;
+        link.click();
+    }
+
+    initTheme();
+
     // Category colors matching CSS vars
     const categoryColors = {
         health: "#e74c3c",
@@ -75,9 +140,6 @@
                     const data = JSON.parse(xhr.responseText);
                     allIssues = data.issues || [];
                     lastUpdatedEl.textContent = `Last updated: ${data.last_updated || "—"}`;
-                    if (data.last_updated) {
-                        datePicker.value = data.last_updated;
-                    }
                     render();
                 } catch (e) {
                     grid.innerHTML = `<p class="loading">Error parsing issues data.</p>`;
@@ -98,7 +160,8 @@
         const selectedDate = datePicker.value;
 
         return allIssues.filter(issue => {
-            if (activeCategory !== "all" && issue.category !== activeCategory) return false;
+            if (activeCategory === "bookmarked" && !bookmarks.has(issue.id)) return false;
+            if (activeCategory !== "all" && activeCategory !== "bookmarked" && issue.category !== activeCategory) return false;
             if (selectedDate && issue.date !== selectedDate) return false;
             if (query) {
                 const text = `${issue.title} ${issue.summary} ${issue.business_opportunity} ${issue.solution}`.toLowerCase();
@@ -224,7 +287,12 @@
             <article class="issue-card">
                 <div class="card-header">
                     <span class="category-badge ${issue.category}">${issue.category}</span>
-                    <span class="market-badge ${issue.market_potential}">${issue.market_potential} potential</span>
+                    <div style="display:flex;align-items:center;gap:0.4rem">
+                        <span class="market-badge ${issue.market_potential}">${issue.market_potential} potential</span>
+                        <button class="bookmark-btn ${bookmarks.has(issue.id) ? "active" : ""}" onclick="window.__toggleBookmark('${issue.id}')" title="${bookmarks.has(issue.id) ? "Remove bookmark" : "Bookmark this idea"}">
+                            ${bookmarks.has(issue.id) ? "&#9733;" : "&#9734;"}
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h3>${escapeHtml(issue.title)}</h3>
@@ -291,6 +359,16 @@
             renderResources();
         });
     });
+
+    // Theme toggle
+    document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
+
+    // Export buttons
+    document.getElementById("export-csv").addEventListener("click", exportCSV);
+    document.getElementById("export-print").addEventListener("click", () => window.print());
+
+    // Expose bookmark toggle for onclick in card HTML
+    window.__toggleBookmark = toggleBookmark;
 
     loadData();
     renderResources();

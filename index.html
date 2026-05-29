@@ -17,6 +17,7 @@
                 <input type="date" id="date-picker">
                 <button id="next-date" title="Next day">&rarr;</button>
             </div>
+            <button id="theme-toggle" class="theme-toggle" title="Toggle dark mode">&#9790;</button>
         </div>
     </header>
 
@@ -32,9 +33,12 @@
                 <button class="tab" data-category="environment">Environment</button>
                 <button class="tab" data-category="infrastructure">Infrastructure</button>
                 <button class="tab" data-category="finance">Finance</button>
+                <button class="tab" data-category="bookmarked" id="bookmarked-tab">&#9733; Saved</button>
             </div>
-            <div class="search-box">
+            <div class="controls-right">
                 <input type="text" id="search" placeholder="Search issues...">
+                <button id="export-csv" class="export-btn" title="Export CSV">CSV</button>
+                <button id="export-print" class="export-btn" title="Print / PDF">Print</button>
             </div>
         </div>
 
