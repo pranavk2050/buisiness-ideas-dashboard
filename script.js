@@ -97,13 +97,14 @@
     function exportCSV() {
         const filtered = getFilteredIssues();
         if (!filtered.length) return;
-        const headers = ["Title", "Category", "Market Potential", "Business Opportunity", "Solution", "Date", "Source"];
+        const headers = ["Title", "Category", "Market Potential", "Root Cause", "Business Opportunity", "Solution", "Date", "Source"];
         const csvContent = [
             headers.join(","),
             ...filtered.map(i => [
                 `"${(i.title || "").replace(/"/g, '""')}"`,
                 i.category,
                 i.market_potential,
+                `"${(i.root_cause || "").replace(/"/g, '""')}"`,
                 `"${(i.business_opportunity || "").replace(/"/g, '""')}"`,
                 `"${(i.solution || "").replace(/"/g, '""')}"`,
                 i.date,
@@ -341,6 +342,10 @@
                     <h3>${escapeHtml(issue.title)}</h3>
                     <div class="card-details">
                         <p class="summary">${escapeHtml(issue.summary)}</p>
+                        ${issue.root_cause ? `<div class="root-cause">
+                            <strong>Root Cause</strong>
+                            ${escapeHtml(issue.root_cause)}
+                        </div>` : ""}
                         <div class="opportunity">
                             <strong>Business Opportunity</strong>
                             ${escapeHtml(issue.business_opportunity)}

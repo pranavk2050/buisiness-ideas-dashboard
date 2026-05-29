@@ -181,14 +181,14 @@ GROQ_MODEL = "llama-3.3-70b-versatile"
 
 def call_groq(title: str, summary: str, category: str, api_key: str) -> dict | None:
     """Call Groq API to generate contextual business opportunity and solution."""
-    prompt = f"""You are an Indian startup business analyst. Analyze this news issue and provide a specific, actionable business opportunity and practical solution relevant to the Indian market.
+    prompt = f"""You are an Indian startup business analyst. Analyze this news issue and provide a root cause analysis, a specific actionable business opportunity, and a practical solution relevant to the Indian market.
 
 News Title: {title}
 Summary: {summary}
 Category: {category}
 
 Respond ONLY with valid JSON (no markdown, no code blocks):
-{{"business_opportunity": "A specific 2-3 sentence business idea directly related to this news issue, with target audience and revenue model", "solution": "A practical 2-3 sentence implementation plan mentioning relevant Indian government schemes, partnerships, or ecosystem players", "market_potential": "high or medium or low based on urgency and market size"}}"""
+{{"root_cause": "A 2-3 sentence analysis of WHY this issue exists in India — systemic, structural, or policy reasons", "business_opportunity": "A specific 2-3 sentence business idea directly related to this news issue, with target audience and revenue model", "solution": "A practical 2-3 sentence implementation plan mentioning relevant Indian government schemes, partnerships, or ecosystem players", "market_potential": "high or medium or low based on urgency and market size"}}"""
 
     try:
         resp = requests.post(
@@ -201,7 +201,7 @@ Respond ONLY with valid JSON (no markdown, no code blocks):
                 "model": GROQ_MODEL,
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.7,
-                "max_tokens": 300,
+                "max_tokens": 500,
             },
             timeout=15,
         )
@@ -213,13 +213,25 @@ Respond ONLY with valid JSON (no markdown, no code blocks):
             content = re.sub(r"\s*```$", "", content)
         result = json.loads(content)
         # Validate required fields
-        if all(k in result for k in ("business_opportunity", "solution", "market_potential")):
+        if all(k in result for k in ("business_opportunity", "solution", "market_potential", "root_cause")):
             if result["market_potential"] not in ("high", "medium", "low"):
                 result["market_potential"] = "medium"
             return result
     except Exception as e:
         print(f"    Groq API error: {e}")
     return None
+
+
+ROOT_CAUSE_TEMPLATES = {
+    "health": "India's healthcare challenges stem from inadequate public health infrastructure, low government spending (around 2% of GDP), shortage of doctors in rural areas, and limited health insurance penetration among the population.",
+    "nutrition": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
+    "education": "Education gaps arise from underfunded public schools, teacher shortages and poor training, language barriers, urban-rural divide in access, and outdated curricula that don't align with market needs.",
+    "technology": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+    "agriculture": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+    "environment": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
+    "infrastructure": "Infrastructure gaps result from rapid urban migration outpacing city planning, bureaucratic delays in project execution, land acquisition challenges, insufficient municipal funding, and fragmented governance.",
+    "finance": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
+}
 
 
 def enrich_with_templates(issue: dict, index: int) -> None:
@@ -229,6 +241,7 @@ def enrich_with_templates(issue: dict, index: int) -> None:
     templates_sol = SOLUTION_TEMPLATES.get(cat, SOLUTION_TEMPLATES["technology"])
     idx = index % len(templates_opp)
 
+    issue["root_cause"] = ROOT_CAUSE_TEMPLATES.get(cat, ROOT_CAUSE_TEMPLATES["technology"])
     issue["business_opportunity"] = templates_opp[idx]
     issue["solution"] = templates_sol[idx]
 
@@ -250,6 +263,7 @@ def enrich_with_ideas(issues: list[dict]) -> list[dict]:
         for i, issue in enumerate(issues):
             result = call_groq(issue["title"], issue["summary"], issue["category"], api_key)
             if result:
+                issue["root_cause"] = result["root_cause"]
                 issue["business_opportunity"] = result["business_opportunity"]
                 issue["solution"] = result["solution"]
                 issue["market_potential"] = result["market_potential"]
@@ -257,7 +271,7 @@ def enrich_with_ideas(issues: list[dict]) -> list[dict]:
             else:
                 enrich_with_templates(issue, i)
                 print(f"    [{i+1}/{len(issues)}] {issue['title'][:50]}... (template fallback)")
-            time.sleep(2)  # Rate limit: stay within Groq free tier (30 req/min)
+            time.sleep(3)  # Rate limit: stay within Groq free tier (30 req/min)
     else:
         print("  No GROQ_API_KEY found — using template fallback...")
         for i, issue in enumerate(issues):

@@ -36,6 +36,9 @@
 [data-theme="dark"] header {
     background: linear-gradient(135deg, #0f0f23, #1a1a4e);
 }
+[data-theme="dark"] .root-cause {
+    background: #2e1a1a;
+}
 [data-theme="dark"] .opportunity {
     background: #1a2e1a;
 }
@@ -490,12 +493,18 @@ main {
     margin-bottom: 0.8rem;
 }
 
+.root-cause,
 .opportunity,
 .solution {
     font-size: 0.85rem;
     padding: 0.6rem 0.8rem;
     border-radius: 8px;
     margin-bottom: 0.5rem;
+}
+
+.root-cause {
+    background: #fdf0ed;
+    border-left: 3px solid var(--health);
 }
 
 .opportunity {
@@ -508,6 +517,7 @@ main {
     border-left: 3px solid var(--education);
 }
 
+.root-cause strong,
 .opportunity strong,
 .solution strong {
     display: block;
