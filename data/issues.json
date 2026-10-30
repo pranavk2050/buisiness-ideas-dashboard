@@ -1,6 +1,330 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "issues": [
+    {
+      "id": "d79a842e388b",
+      "title": "Feeding the City: Food, Mobility and Health in Urban India",
+      "summary": "Feeding the City: Food, Mobility and Health in Urban India orfonline.org",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-10-30",
+      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
+      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
+      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "40b3f3feced5",
+      "title": "Agricultural growth may turn negative this year; 'Suryakhet' can deliver 10x income growth: ICRIER...",
+      "summary": "Agricultural growth may turn negative this year; 'Suryakhet' can deliver 10x income growth: ICRIER... Moneycontrol.com",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-30",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
+      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "a71f2784454a",
+      "title": "Vardaan Emerges as a Promising Nature-Based Alternative to DAP, Enhancing Soil Health",
+      "summary": "Vardaan Emerges as a Promising Nature-Based Alternative to DAP, Enhancing Soil Health www.indiagazette.com",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-30",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
+      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "43134257126e",
+      "title": "MecTURING MopX3 Crosses 10,000 Units Sold, Strengthening its Position in India’s Smart Home Market",
+      "summary": "MecTURING MopX3 Crosses 10,000 Units Sold, Strengthening its Position in India’s Smart Home Market The Tribune",
+      "category": "infrastructure",
+      "source": "Google News",
+      "date": "2026-10-30",
+      "root_cause": "Infrastructure gaps result from rapid urban migration outpacing city planning, bureaucratic delays in project execution, land acquisition challenges, insufficient municipal funding, and fragmented governance.",
+      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
+      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "1f8ac1d372cc",
+      "title": "JP Nadda sets out healthcare roadmap as doctors list ways to avoid lifestyle diseases",
+      "summary": "JP Nadda sets out healthcare roadmap as doctors list ways to avoid lifestyle diseases India Today",
+      "category": "health",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "India's healthcare challenges stem from inadequate public health infrastructure, low government spending (around 2% of GDP), shortage of doctors in rural areas, and limited health insurance penetration among the population.",
+      "business_opportunity": "Build an AI-powered diagnostic tool that works offline on low-cost smartphones for community health workers.",
+      "solution": "Leverage India Stack (Aadhaar, UPI) for identity verification and payments. Pilot in one state before scaling.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "3b09500f18e1",
+      "title": "Focus - Food safety in India: A challenge for the world's most populous country",
+      "summary": "Focus - Food safety in India: A challenge for the world's most populous country France 24",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
+      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
+      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "a69eebe6749a",
+      "title": "Food vendors urged to maintain hygiene in Nabha",
+      "summary": "Food vendors urged to maintain hygiene in Nabha The Times of India",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
+      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
+      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "8f572898a2c5",
+      "title": "Nearly 950 litres of adulterated ghee seized in Delhi raids ahead of Diwali",
+      "summary": "Nearly 950 litres of adulterated ghee seized in Delhi raids ahead of Diwali India Today",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
+      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
+      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "96a1d988d9f7",
+      "title": "Centre Releases New Guidelines To Strengthen Adult Literacy Across India",
+      "summary": "Centre Releases New Guidelines To Strengthen Adult Literacy Across India NDTV",
+      "category": "education",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Education gaps arise from underfunded public schools, teacher shortages and poor training, language barriers, urban-rural divide in access, and outdated curricula that don't align with market needs.",
+      "business_opportunity": "Build an offline-first e-learning platform with vernacular language support for rural students.",
+      "solution": "Align with NEP 2020 guidelines. Partner with state education departments for pilot programs in government schools.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "b9e0872c56cd",
+      "title": "Centre mandates teacher trainees to teach 5-8 adult learners under new literacy guidelines",
+      "summary": "Centre mandates teacher trainees to teach 5-8 adult learners under new literacy guidelines Education Times",
+      "category": "education",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Education gaps arise from underfunded public schools, teacher shortages and poor training, language barriers, urban-rural divide in access, and outdated curricula that don't align with market needs.",
+      "business_opportunity": "Create a vocational training marketplace connecting skilled trainers with youth in tier-2/3 cities.",
+      "solution": "Use NSDC (National Skill Development Corporation) framework for certification. Partner with local industries for placement.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "6359cd60c379",
+      "title": "PM Modi says, India must embrace emerging technologies and lead world in creating them",
+      "summary": "PM Modi says, India must embrace emerging technologies and lead world in creating them News On AIR",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "b9bbf33d03a2",
+      "title": "PM Modi inaugurates ESTIC 2026 to advance science and innovation",
+      "summary": "PM Modi inaugurates ESTIC 2026 to advance science and innovation Awaz The Voice",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "9f45f7f7d888",
+      "title": "EXCLUSIVE: Former Sequoia India Partners Launch Mettle Capital with $350 million Fund",
+      "summary": "EXCLUSIVE: Former Sequoia India Partners Launch Mettle Capital with $350 million Fund Newcomer | Substack",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "5b9770eb49ba",
+      "title": "Bengaluru Tech Summit 2026: What’s In Store For Startups At Asia’s Largest Tech Event",
+      "summary": "Bengaluru Tech Summit 2026: What’s In Store For Startups At Asia’s Largest Tech Event Inc42",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "74fd72f127d4",
+      "title": "Tech3 | Roti, kapda, makaan: Consumer deals surge amid VC interest; How Ather stole a march over Ola; and more",
+      "summary": "Tech3 | Roti, kapda, makaan: Consumer deals surge amid VC interest; How Ather stole a march over Ola; and more Moneycontrol.com",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "b721be845732",
+      "title": "ICAR Celebrates 98th Foundation Day, Reaffirms Commitment to Science-led Agricultural Transformation",
+      "summary": "ICAR Celebrates 98th Foundation Day, Reaffirms Commitment to Science-led Agricultural Transformation Indian Council Of Agricultural Research",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
+      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "80723bed7783",
+      "title": "Scenario of Livestock and Agriculture in Pre and Post- Independent India: Introspection",
+      "summary": "Scenario of Livestock and Agriculture in Pre and Post- Independent India: Introspection Rising Kashmir",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
+      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "e86f050e56eb",
+      "title": "El Nino 2026: How India can protect its rural communities",
+      "summary": "El Nino 2026: How India can protect its rural communities Down To Earth",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "3c2b5cfa9bba",
+      "title": "New study decodes India’s agricultural origins in Ganga Plain using grass pollen",
+      "summary": "New study decodes India’s agricultural origins in Ganga Plain using grass pollen DD News",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
+      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "a429130635ee",
+      "title": "New genetic tools are breathing fresh life into India’s staple crops",
+      "summary": "New genetic tools are breathing fresh life into India’s staple crops The Hindu",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
+      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "11f257b63176",
+      "title": "Explained: What the Latest Rabi MSP Hike Means for Farmers",
+      "summary": "Explained: What the Latest Rabi MSP Hike Means for Farmers DD India",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
+      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "f93a1d5c835f",
+      "title": "Bhagwati Devi: Leading the Ragi Revolution in Gumla, India’s Emerging “Ragi Capital”",
+      "summary": "Bhagwati Devi: Leading the Ragi Revolution in Gumla, India’s Emerging “Ragi Capital” Indian Council Of Agricultural Research",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "07ee144665ce",
+      "title": "Drought-hit crops, rising costs may drive up India's farm commodity imports",
+      "summary": "Drought-hit crops, rising costs may drive up India's farm commodity imports Business Standard",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "f541ef8d4bf7",
+      "title": "CUSB conference: Experts call for urgent action on environmental health risks",
+      "summary": "CUSB conference: Experts call for urgent action on environmental health risks The Times of India",
+      "category": "environment",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
+      "business_opportunity": "Develop affordable air quality monitoring devices for schools and residential communities.",
+      "solution": "Collaborate with CPCB for data standards. Distribute through school networks and RWAs for community adoption.",
+      "market_potential": "high"
+    },
+    {
+      "id": "a6d8c8e5c611",
+      "title": "TERI Hosts Innovate4Environment National Camp as Young Innovators Showcase Climate Solutions",
+      "summary": "TERI Hosts Innovate4Environment National Camp as Young Innovators Showcase Climate Solutions Global Agriculture",
+      "category": "environment",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
+      "business_opportunity": "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
+      "solution": "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "e138dbd89d96",
+      "title": "TEXPA: Smarter Automation for India’s Home Textile Industry",
+      "summary": "TEXPA: Smarter Automation for India’s Home Textile Industry The Textile Magazine",
+      "category": "infrastructure",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Infrastructure gaps result from rapid urban migration outpacing city planning, bureaucratic delays in project execution, land acquisition challenges, insufficient municipal funding, and fragmented governance.",
+      "business_opportunity": "Create a smart parking and traffic management solution for tier-2 Indian cities.",
+      "solution": "Pilot with Smart Cities Mission cities. Integrate with existing ITMS infrastructure for faster adoption.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "d2e977538853",
+      "title": "NABFINS Onboards Bharat Connect to Simplify Microfinance Loan Repayments Across India",
+      "summary": "NABFINS Onboards Bharat Connect to Simplify Microfinance Loan Repayments Across India Telugu Times",
+      "category": "finance",
+      "source": "Google News",
+      "date": "2026-10-29",
+      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
+      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
+      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
+      "market_potential": "medium"
+    },
     {
       "id": "06844bbef390",
       "title": "HUL backs FSSAI labelling norms for food products high in fat, salt and sugar",
@@ -74,18 +398,6 @@
       "market_potential": "medium"
     },
     {
-      "id": "96a1d988d9f7",
-      "title": "Centre Releases New Guidelines To Strengthen Adult Literacy Across India",
-      "summary": "Centre Releases New Guidelines To Strengthen Adult Literacy Across India NDTV",
-      "category": "education",
-      "source": "Google News",
-      "date": "2026-10-29",
-      "root_cause": "Education gaps arise from underfunded public schools, teacher shortages and poor training, language barriers, urban-rural divide in access, and outdated curricula that don't align with market needs.",
-      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
-      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
-      "market_potential": "medium"
-    },
-    {
       "id": "bf24bea70a42",
       "title": "IIT-Hyderabad startup showcases homegrown tech to PM Modi",
       "summary": "IIT-Hyderabad startup showcases homegrown tech to PM Modi The New Indian Express",
@@ -110,18 +422,6 @@
       "market_potential": "high"
     },
     {
-      "id": "07ee144665ce",
-      "title": "Drought-hit crops, rising costs may drive up India's farm commodity imports",
-      "summary": "Drought-hit crops, rising costs may drive up India's farm commodity imports Business Standard",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-29",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
-      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
-      "market_potential": "medium"
-    },
-    {
       "id": "0b461f4c8ab2",
       "title": "Ayushman Bharat Data Could Transform India's Healthcare, Says NITI Aayog Member",
       "summary": "Ayushman Bharat Data Could Transform India's Healthcare, Says NITI Aayog Member NDTV",
@@ -131,6 +431,18 @@
       "root_cause": "India's healthcare challenges stem from inadequate public health infrastructure, low government spending (around 2% of GDP), shortage of doctors in rural areas, and limited health insurance penetration among the population.",
       "business_opportunity": "Create a health insurance micro-product for low-income families with simple claim processes via mobile apps.",
       "solution": "Integrate with Ayushman Bharat scheme for subsidized access. Build trust via local language support and community health camps.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "f4a547f2fddd",
+      "title": "The Twin Spectrum of Malnutrition: India’s Policy Dilemma",
+      "summary": "The Twin Spectrum of Malnutrition: India’s Policy Dilemma The Policy Edge",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
+      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
+      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
       "market_potential": "medium"
     },
     {
@@ -146,15 +458,99 @@
       "market_potential": "medium"
     },
     {
-      "id": "f4a547f2fddd",
-      "title": "The Twin Spectrum of Malnutrition: India’s Policy Dilemma",
-      "summary": "The Twin Spectrum of Malnutrition: India’s Policy Dilemma The Policy Edge",
+      "id": "298e4a627b0a",
+      "title": "Food safety must be built into business operations, not treated as a compliance checklist: FSSAI's Satyen Ku..",
+      "summary": "Food safety must be built into business operations, not treated as a compliance checklist: FSSAI's Satyen Ku.. ET Retail",
       "category": "nutrition",
       "source": "Google News",
       "date": "2026-10-28",
       "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
-      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
-      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
+      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "6cb6dbf3705f",
+      "title": "PhysicsWallah, Startup India tie up to support 25,000 early-stage startups",
+      "summary": "PhysicsWallah, Startup India tie up to support 25,000 early-stage startups Business Standard",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "08e85c43ba4f",
+      "title": "The DeepTech Analyst Power List 2026",
+      "summary": "The DeepTech Analyst Power List 2026 Indian Startup Times",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "ba09f454f79d",
+      "title": "How the government can help deep-tech startups reach their full potential",
+      "summary": "How the government can help deep-tech startups reach their full potential Livemint",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "9bac2a67640d",
+      "title": "India may import more food, feed and farm commodities as drought hits crops",
+      "summary": "India may import more food, feed and farm commodities as drought hits crops The Economic Times",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
+      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "bcc5e324cc4a",
+      "title": "Yadav Highlights India’s Waste Processing and Recycling Push",
+      "summary": "Yadav Highlights India’s Waste Processing and Recycling Push Construction World India",
+      "category": "environment",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
+      "business_opportunity": "Create a carbon credit marketplace for Indian SMEs and agricultural operations.",
+      "solution": "Leverage CCTS (Indian Carbon Trading Scheme) framework. Start with agriculture and renewable energy sectors.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "807f0be236ea",
+      "title": "Microfinance borrowers can now repay loans anywhere, anytime through NBBL initiative",
+      "summary": "Microfinance borrowers can now repay loans anywhere, anytime through NBBL initiative The Times of India",
+      "category": "finance",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
+      "business_opportunity": "Develop a unified dashboard for small merchants to manage UPI, credit, and inventory in one place.",
+      "solution": "Integrate with ONDC for e-commerce features. Offer in local languages with voice-first interface.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "1cae2657a376",
+      "title": "Microfinance Loan Repayment Expands Through Bharat Connect",
+      "summary": "Microfinance Loan Repayment Expands Through Bharat Connect Urban Acres",
+      "category": "finance",
+      "source": "Google News",
+      "date": "2026-10-28",
+      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
+      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
       "market_potential": "medium"
     },
     {
@@ -179,30 +575,6 @@
       "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
       "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
       "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "6cb6dbf3705f",
-      "title": "PhysicsWallah, Startup India tie up to support 25,000 early-stage startups",
-      "summary": "PhysicsWallah, Startup India tie up to support 25,000 early-stage startups Business Standard",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "b9bbf33d03a2",
-      "title": "PM Modi inaugurates ESTIC 2026 to advance science and innovation",
-      "summary": "PM Modi inaugurates ESTIC 2026 to advance science and innovation Awaz The Voice",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
       "market_potential": "medium"
     },
     {
@@ -242,18 +614,6 @@
       "market_potential": "medium"
     },
     {
-      "id": "f93a1d5c835f",
-      "title": "Bhagwati Devi: Leading the Ragi Revolution in Gumla, India’s Emerging “Ragi Capital”",
-      "summary": "Bhagwati Devi: Leading the Ragi Revolution in Gumla, India’s Emerging “Ragi Capital” Indian Council Of Agricultural Research",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
-      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
-      "market_potential": "medium"
-    },
-    {
       "id": "1caa2470b6ce",
       "title": "Agrivoltaics Offers India Potential to Generate Solar Power Alongside Farming",
       "summary": "Agrivoltaics Offers India Potential to Generate Solar Power Alongside Farming DD India",
@@ -263,18 +623,6 @@
       "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
       "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
       "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "9bac2a67640d",
-      "title": "India may import more food, feed and farm commodities as drought hits crops",
-      "summary": "India may import more food, feed and farm commodities as drought hits crops The Economic Times",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
-      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
       "market_potential": "medium"
     },
     {
@@ -299,42 +647,6 @@
       "root_cause": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
       "business_opportunity": "Launch an e-waste recycling service with doorstep pickup for urban households and businesses.",
       "solution": "Register under Extended Producer Responsibility (EPR) framework. Partner with electronics brands for collection drives.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "bcc5e324cc4a",
-      "title": "Yadav Highlights India’s Waste Processing and Recycling Push",
-      "summary": "Yadav Highlights India’s Waste Processing and Recycling Push Construction World India",
-      "category": "environment",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
-      "business_opportunity": "Build a waste-to-energy platform connecting municipal waste generators with recycling facilities.",
-      "solution": "Partner with municipal corporations under Swachh Bharat Mission. Use CSR funds from large corporates for initial setup.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "807f0be236ea",
-      "title": "Microfinance borrowers can now repay loans anywhere, anytime through NBBL initiative",
-      "summary": "Microfinance borrowers can now repay loans anywhere, anytime through NBBL initiative The Times of India",
-      "category": "finance",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
-      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
-      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "1cae2657a376",
-      "title": "Microfinance Loan Repayment Expands Through Bharat Connect",
-      "summary": "Microfinance Loan Repayment Expands Through Bharat Connect Urban Acres",
-      "category": "finance",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
-      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
-      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
       "market_potential": "medium"
     },
     {
@@ -374,18 +686,6 @@
       "market_potential": "medium"
     },
     {
-      "id": "6359cd60c379",
-      "title": "PM Modi says, India must embrace emerging technologies and lead world in creating them",
-      "summary": "PM Modi says, India must embrace emerging technologies and lead world in creating them News On AIR",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-28",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
       "id": "a3db8a7e50fd",
       "title": "DPIIT launches 6th edition of National Startup Awards to recognise innovation and entrepreneurship",
       "summary": "DPIIT launches 6th edition of National Startup Awards to recognise innovation and entrepreneurship India Shipping News",
@@ -417,8 +717,80 @@
       "source": "Google News",
       "date": "2026-10-27",
       "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
-      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
-      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
+      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "edd408d8519e",
+      "title": "Big Tech backs Indian startups with more than money",
+      "summary": "Big Tech backs Indian startups with more than money ET Entrepreneur",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-27",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "e6565bf1e81f",
+      "title": "India must embrace future technologies, lead world in creating them: PM Modi at ESTIC",
+      "summary": "India must embrace future technologies, lead world in creating them: PM Modi at ESTIC The New Indian Express",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-27",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "ea40ce661321",
+      "title": "Immersive Technologies and India's AVGC-XR Ecosystem",
+      "summary": "Immersive Technologies and India's AVGC-XR Ecosystem Drishti IAS",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-27",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "b9d6ede8f1f5",
+      "title": "India’s ESTIC 2026 Conclave Opens Today in New Delhi, Bringing Science Leaders and Deep-Tech Startups Together",
+      "summary": "India’s ESTIC 2026 Conclave Opens Today in New Delhi, Bringing Science Leaders and Deep-Tech Startups Together www.nationpathindia.com",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-27",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
+      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "58145fe77320",
+      "title": "Farmers prepare for low rain but get floods instead",
+      "summary": "Farmers prepare for low rain but get floods instead Mongabay India",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-27",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
+      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "4509d7b0aef5",
+      "title": "India-Ghana Agricultural Pact targets tomato production, crop research and post-harvest losses",
+      "summary": "India-Ghana Agricultural Pact targets tomato production, crop research and post-harvest losses AgroSpectrum India",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-27",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
+      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
       "market_potential": "medium"
     },
     {
@@ -443,30 +815,6 @@
       "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
       "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
       "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "ea40ce661321",
-      "title": "Immersive Technologies and India's AVGC-XR Ecosystem",
-      "summary": "Immersive Technologies and India's AVGC-XR Ecosystem Drishti IAS",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-27",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "58145fe77320",
-      "title": "Farmers prepare for low rain but get floods instead",
-      "summary": "Farmers prepare for low rain but get floods instead Mongabay India",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-27",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
-      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
       "market_potential": "medium"
     },
     {
@@ -542,18 +890,6 @@
       "market_potential": "medium"
     },
     {
-      "id": "e6565bf1e81f",
-      "title": "India must embrace future technologies, lead world in creating them: PM Modi at ESTIC",
-      "summary": "India must embrace future technologies, lead world in creating them: PM Modi at ESTIC The New Indian Express",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-27",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
       "id": "db6346dcb37a",
       "title": "PM Modi highlights India’s growing self-reliance",
       "summary": "PM Modi highlights India’s growing self-reliance Awaz The Voice",
@@ -599,30 +935,6 @@
       "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
       "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
       "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "b9d6ede8f1f5",
-      "title": "India’s ESTIC 2026 Conclave Opens Today in New Delhi, Bringing Science Leaders and Deep-Tech Startups Together",
-      "summary": "India’s ESTIC 2026 Conclave Opens Today in New Delhi, Bringing Science Leaders and Deep-Tech Startups Together www.nationpathindia.com",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-27",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "4509d7b0aef5",
-      "title": "India-Ghana Agricultural Pact targets tomato production, crop research and post-harvest losses",
-      "summary": "India-Ghana Agricultural Pact targets tomato production, crop research and post-harvest losses AgroSpectrum India",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-27",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
-      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
       "market_potential": "medium"
     },
     {
@@ -722,6 +1034,66 @@
       "market_potential": "medium"
     },
     {
+      "id": "f24800afb308",
+      "title": "Taking India's innovation story beyond the metros",
+      "summary": "Taking India's innovation story beyond the metros The Week",
+      "category": "technology",
+      "source": "Google News",
+      "date": "2026-10-26",
+      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
+      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
+      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "390db6fca6f0",
+      "title": "Global AI Impact Commons Stories: MahaVISTAAR",
+      "summary": "Global AI Impact Commons Stories: MahaVISTAAR orfonline.org",
+      "category": "agriculture",
+      "source": "Google News",
+      "date": "2026-10-26",
+      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
+      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
+      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "84a6434cdfef",
+      "title": "COP 31: Global Climate Priorities, India’s Expectations and the Way Forward",
+      "summary": "COP 31: Global Climate Priorities, India’s Expectations and the Way Forward Vivekananda International Foundation (VIF)",
+      "category": "environment",
+      "source": "Google News",
+      "date": "2026-10-26",
+      "root_cause": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
+      "business_opportunity": "Create a carbon credit marketplace for Indian SMEs and agricultural operations.",
+      "solution": "Leverage CCTS (Indian Carbon Trading Scheme) framework. Start with agriculture and renewable energy sectors.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "76177ce4acf1",
+      "title": "Small finance banks expand reach, but India's credit gap remains wide",
+      "summary": "Small finance banks expand reach, but India's credit gap remains wide Business Standard",
+      "category": "finance",
+      "source": "Google News",
+      "date": "2026-10-26",
+      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
+      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
+      "market_potential": "medium"
+    },
+    {
+      "id": "e0ee21561afb",
+      "title": "BFSI Summit 2026: Top experts from the finance world to share insights",
+      "summary": "BFSI Summit 2026: Top experts from the finance world to share insights Business Standard",
+      "category": "finance",
+      "source": "Google News",
+      "date": "2026-10-26",
+      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
+      "business_opportunity": "Launch a crop insurance tech platform simplifying claim filing for smallholder farmers.",
+      "solution": "Integrate with PMFBY (Pradhan Mantri Fasal Bima Yojana). Use satellite and weather data for automated claim assessment.",
+      "market_potential": "medium"
+    },
+    {
       "id": "88c85fcb785e",
       "title": "BEAT 2026 Advances Cardiovascular Care in India",
       "summary": "BEAT 2026 Advances Cardiovascular Care in India Voice of Healthcare",
@@ -755,18 +1127,6 @@
       "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
       "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
       "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "f24800afb308",
-      "title": "Taking India's innovation story beyond the metros",
-      "summary": "Taking India's innovation story beyond the metros The Week",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-26",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
       "market_potential": "medium"
     },
     {
@@ -806,18 +1166,6 @@
       "market_potential": "medium"
     },
     {
-      "id": "390db6fca6f0",
-      "title": "Global AI Impact Commons Stories: MahaVISTAAR",
-      "summary": "Global AI Impact Commons Stories: MahaVISTAAR orfonline.org",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-26",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
-      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
-      "market_potential": "medium"
-    },
-    {
       "id": "1ff868f1e8f9",
       "title": "El Niño, fertilizer shortages and the Iran war: Why food prices in India could rise in 2027",
       "summary": "El Niño, fertilizer shortages and the Iran war: Why food prices in India could rise in 2027 Open Magazine",
@@ -830,18 +1178,6 @@
       "market_potential": "high"
     },
     {
-      "id": "b721be845732",
-      "title": "ICAR Celebrates 98th Foundation Day, Reaffirms Commitment to Science-led Agricultural Transformation",
-      "summary": "ICAR Celebrates 98th Foundation Day, Reaffirms Commitment to Science-led Agricultural Transformation Indian Council Of Agricultural Research",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-26",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
-      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
-      "market_potential": "medium"
-    },
-    {
       "id": "834d6a68bb90",
       "title": "Agrivoltaics in India, Grow Crops and Generate Solar Power",
       "summary": "Agrivoltaics in India, Grow Crops and Generate Solar Power Vajiram & Ravi",
@@ -851,42 +1187,6 @@
       "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
       "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
       "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "84a6434cdfef",
-      "title": "COP 31: Global Climate Priorities, India’s Expectations and the Way Forward",
-      "summary": "COP 31: Global Climate Priorities, India’s Expectations and the Way Forward Vivekananda International Foundation (VIF)",
-      "category": "environment",
-      "source": "Google News",
-      "date": "2026-10-26",
-      "root_cause": "Environmental degradation stems from rapid urbanization, weak enforcement of pollution laws, inadequate waste management infrastructure, industrial emissions, and over-reliance on fossil fuels.",
-      "business_opportunity": "Develop affordable air quality monitoring devices for schools and residential communities.",
-      "solution": "Collaborate with CPCB for data standards. Distribute through school networks and RWAs for community adoption.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "76177ce4acf1",
-      "title": "Small finance banks expand reach, but India's credit gap remains wide",
-      "summary": "Small finance banks expand reach, but India's credit gap remains wide Business Standard",
-      "category": "finance",
-      "source": "Google News",
-      "date": "2026-10-26",
-      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
-      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
-      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "e0ee21561afb",
-      "title": "BFSI Summit 2026: Top experts from the finance world to share insights",
-      "summary": "BFSI Summit 2026: Top experts from the finance world to share insights Business Standard",
-      "category": "finance",
-      "source": "Google News",
-      "date": "2026-10-26",
-      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
-      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
-      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
       "market_potential": "medium"
     },
     {
@@ -1586,18 +1886,6 @@
       "market_potential": "medium"
     },
     {
-      "id": "edd408d8519e",
-      "title": "Big Tech backs Indian startups with more than money",
-      "summary": "Big Tech backs Indian startups with more than money ET Entrepreneur",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-23",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
       "id": "fd42d092bd06",
       "title": "India Air Conditioning (AC) Market Size, Forecast 2034",
       "summary": "India Air Conditioning (AC) Market Size, Forecast 2034 IMARC Group",
@@ -1881,8 +2169,8 @@
       "source": "Google News",
       "date": "2026-10-22",
       "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
-      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
-      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
+      "business_opportunity": "Build a vernacular-language financial literacy app targeting rural women and SHG members.",
+      "solution": "Partner with NABARD and regional rural banks for distribution. Align content with RBI financial literacy guidelines.",
       "market_potential": "medium"
     },
     {
@@ -2738,6 +3026,18 @@
       "market_potential": "medium"
     },
     {
+      "id": "3c7d1a84e441",
+      "title": "India’s food safety watchdog proposes ban on added sugars in infant formula",
+      "summary": "India’s food safety watchdog proposes ban on added sugars in infant formula Nutrition Insight",
+      "category": "nutrition",
+      "source": "Google News",
+      "date": "2026-10-19",
+      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
+      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
+      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
+      "market_potential": "medium"
+    },
+    {
       "id": "955965e4b087",
       "title": "Where is India’s crackdown on food safety headed?",
       "summary": "Where is India’s crackdown on food safety headed? LinkedIn",
@@ -2759,18 +3059,6 @@
       "root_cause": "India's healthcare challenges stem from inadequate public health infrastructure, low government spending (around 2% of GDP), shortage of doctors in rural areas, and limited health insurance penetration among the population.",
       "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
       "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "3c7d1a84e441",
-      "title": "India’s food safety watchdog proposes ban on added sugars in infant formula",
-      "summary": "India’s food safety watchdog proposes ban on added sugars in infant formula Nutrition Insight",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-10-19",
-      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
-      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
-      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
       "market_potential": "medium"
     },
     {
@@ -3081,8 +3369,8 @@
       "source": "Google News",
       "date": "2026-10-18",
       "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
-      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
-      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
+      "business_opportunity": "Develop affordable nutrition monitoring wearables or apps for pregnant women and children.",
+      "solution": "Partner with SHGs (Self-Help Groups) for community-level monitoring and data collection.",
       "market_potential": "medium"
     },
     {
@@ -4677,8 +4965,8 @@
       "source": "Google News",
       "date": "2026-10-13",
       "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
+      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
+      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
       "market_potential": "medium"
     },
     {
@@ -5711,294 +5999,6 @@
       "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
       "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
       "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "78e1b3df50c0",
-      "title": "On Centre’s prod, Goa transitions smart city into state-level SPV",
-      "summary": "On Centre’s prod, Goa transitions smart city into state-level SPV The Times of India",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "Infrastructure gaps result from rapid urban migration outpacing city planning, bureaucratic delays in project execution, land acquisition challenges, insufficient municipal funding, and fragmented governance.",
-      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
-      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "c96e97ba6001",
-      "title": "Qubo looks to on-device AI to widen smart home adoption in India: CEO Nikhil Rajpal",
-      "summary": "Qubo looks to on-device AI to widen smart home adoption in India: CEO Nikhil Rajpal The Economic Times",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "Infrastructure gaps result from rapid urban migration outpacing city planning, bureaucratic delays in project execution, land acquisition challenges, insufficient municipal funding, and fragmented governance.",
-      "business_opportunity": "Launch a last-mile delivery infrastructure for rural e-commerce using local transport networks.",
-      "solution": "Partner with India Post and CSC (Common Service Centres) for rural reach. Use electric vehicles for last-mile delivery.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "3a771629597d",
-      "title": "India Mobile Congress: A digital river of convergence",
-      "summary": "India Mobile Congress: A digital river of convergence Forbes India",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "751e1f03dec1",
-      "title": "Odisha Gears Up to Host 19th Urban Mobility India Conference & National Urban Conclave",
-      "summary": "Odisha Gears Up to Host 19th Urban Mobility India Conference & National Urban Conclave Pragativadi",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "Infrastructure gaps result from rapid urban migration outpacing city planning, bureaucratic delays in project execution, land acquisition challenges, insufficient municipal funding, and fragmented governance.",
-      "business_opportunity": "Build a platform connecting migrant construction workers with verified contractors and housing projects.",
-      "solution": "Register on eShram portal for worker database. Partner with real estate developers and government housing schemes.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "b37af5eb04c8",
-      "title": "Microcredit in India: Why Human Lending Still Matters",
-      "summary": "Microcredit in India: Why Human Lending Still Matters Urban Acres",
-      "category": "finance",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "Financial exclusion persists due to low financial literacy, limited banking access in rural areas, lack of formal credit history for the poor, complex regulatory requirements, and distrust of formal financial institutions.",
-      "business_opportunity": "Create a micro-lending platform using alternative credit scoring (mobile usage, utility payments).",
-      "solution": "Use India Stack (Account Aggregator + UPI) for underwriting. Partner with NBFCs for lending capital.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "fddf4266a7af",
-      "title": "Patiala food safety team seizes 1.25 quintal paneer, collects samples for lab testing",
-      "summary": "Patiala food safety team seizes 1.25 quintal paneer, collects samples for lab testing The Times of India",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
-      "business_opportunity": "Create a supply chain platform connecting local farmers directly to school mid-day meal programs.",
-      "solution": "Use FPOs (Farmer Producer Organizations) for sourcing. Apply for FSSAI grants for fortification research.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "1afe017db8d5",
-      "title": "TechSparks 2026: Zakir Khan, Varun Mayya, Keshav Reddy, and more join the speakers",
-      "summary": "TechSparks 2026: Zakir Khan, Varun Mayya, Keshav Reddy, and more join the speakers YourStory.com",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "a9e6585f5384",
-      "title": "EV Bets Drive India’s Cleantech Funding Surge In Q3",
-      "summary": "EV Bets Drive India’s Cleantech Funding Surge In Q3 Inc42",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "eee7c3066fa3",
-      "title": "Pune's Startup Ecosystem Takes Centre Stage as Gyrodrive Advances to the Startup World Cup Grand Finale in San Francisco",
-      "summary": "Pune's Startup Ecosystem Takes Centre Stage as Gyrodrive Advances to the Startup World Cup Grand Finale in San Francisco Ahmedabad Mirror",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "83083f6ff99a",
-      "title": "The Hardest Test for India’s AI Dream",
-      "summary": "The Hardest Test for India’s AI Dream Analytics India Magazine",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "a6a0d83db9f0",
-      "title": "Chandigarh University Launches Campus Tank Season 2 with US $15-Million Funding Pool to Help Young Innovators Take Ideas to Market; Accelerate Indias Start-up Growth",
-      "summary": "Chandigarh University Launches Campus Tank Season 2 with US $15-Million Funding Pool to Help Young Innovators Take Ideas to Market; Accelerate Indias Start-up Growth TheWire.in",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "6ba56a5b668b",
-      "title": "‘Own 4 acres of land, yet may have to work as daily wager for family’s survival’ Solapur farmer tells cen",
-      "summary": "‘Own 4 acres of land, yet may have to work as daily wager for family’s survival’ Solapur farmer tells cen The Times of India",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Develop soil health monitoring kits with mobile app integration for real-time recommendations.",
-      "solution": "Collaborate with Soil Health Card scheme for baseline data. Offer freemium model with premium advisory tier.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "fd09b8457f5e",
-      "title": "Kolkata civic body back on patrol, teams raid restaurants in Esplanade and north Calcutta",
-      "summary": "Kolkata civic body back on patrol, teams raid restaurants in Esplanade and north Calcutta Telegraph India",
-      "category": "nutrition",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "Malnutrition persists due to poverty, lack of dietary diversity, poor sanitation, inadequate public distribution systems, and limited awareness about balanced nutrition among rural and urban poor populations.",
-      "business_opportunity": "Launch a fortified food product line targeting nutritional gaps identified in this region.",
-      "solution": "Collaborate with ICDS (Integrated Child Development Services) and anganwadi centres for distribution and awareness.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "485373462860",
-      "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
-      "summary": "Elon Musk intensifies attack on Ambani over Starlink India launch delay TechCrunch",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-10",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Build digital infrastructure solutions for small businesses to adopt e-commerce in underserved regions.",
-      "solution": "Target MSME clusters identified by the Ministry. Offer freemium model with UPI-based payments.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "005899eb2e1b",
-      "title": "Smart Cities Mission Transforming Urban Development Across India",
-      "summary": "Smart Cities Mission Transforming Urban Development Across India Construction World",
-      "category": "infrastructure",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "Infrastructure gaps result from rapid urban migration outpacing city planning, bureaucratic delays in project execution, land acquisition challenges, insufficient municipal funding, and fragmented governance.",
-      "business_opportunity": "Develop modular, affordable housing solutions using recycled materials for urban slum rehabilitation.",
-      "solution": "Align with PMAY (Pradhan Mantri Awas Yojana) guidelines. Use local manufacturing to reduce costs by 40%.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "1af8703a9dfb",
-      "title": "Government Health Schemes in India, List, Benefits, Impact",
-      "summary": "Government Health Schemes in India, List, Benefits, Impact Vajiram & Ravi",
-      "category": "health",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "India's healthcare challenges stem from inadequate public health infrastructure, low government spending (around 2% of GDP), shortage of doctors in rural areas, and limited health insurance penetration among the population.",
-      "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
-      "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "943dd4d75fa3",
-      "title": "MeitY Pavilion showcases India’s digital innovation and emerging technology capabilities at India Mobile Congress 2026",
-      "summary": "MeitY Pavilion showcases India’s digital innovation and emerging technology capabilities at India Mobile Congress 2026 Press Information Bureau",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "2e57d84fd5ad",
-      "title": "Hon’ble President of India, Smt Droupadi Murmu Inaugurates Global Conference on Women in Agri-Food Systems, Spotlighting Women as Drivers of Agricultural Transformation | ICAR",
-      "summary": "Hon’ble President of India, Smt Droupadi Murmu Inaugurates Global Conference on Women in Agri-Food Systems, Spotlighting Women as Drivers of Agricultural Transformation | ICAR Indian Council Of Agricu",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Build a crop advisory platform using satellite imagery and weather data for smallholder farmers.",
-      "solution": "Partner with ICAR and state agriculture universities for data validation. Pilot with progressive farmers in one district.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "7dd6e99e98f4",
-      "title": "BW BusinessWorld Launches HealthNext India Summit & Awards To Shape Future Of Healthcare",
-      "summary": "BW BusinessWorld Launches HealthNext India Summit & Awards To Shape Future Of Healthcare BW Healthcare World",
-      "category": "health",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "India's healthcare challenges stem from inadequate public health infrastructure, low government spending (around 2% of GDP), shortage of doctors in rural areas, and limited health insurance penetration among the population.",
-      "business_opportunity": "Develop an affordable telemedicine platform targeting rural India, connecting patients with specialists via low-bandwidth video.",
-      "solution": "Partner with PHCs (Primary Health Centres) and ASHA workers for last-mile delivery. Use government health data APIs for targeting.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "2e37e3ce3e81",
-      "title": "Problems Faced by Tribal Communities in India",
-      "summary": "Problems Faced by Tribal Communities in India Vajiram & Ravi",
-      "category": "education",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "Education gaps arise from underfunded public schools, teacher shortages and poor training, language barriers, urban-rural divide in access, and outdated curricula that don't align with market needs.",
-      "business_opportunity": "Develop AI tutoring assistants that adapt to regional curricula and local languages.",
-      "solution": "Leverage DIKSHA platform integration. Start with subjects with highest failure rates in board exams.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "8af076802e53",
-      "title": "Rajan Anandan, Saurabh Srivastava author new book on India’s startup ecosystem",
-      "summary": "Rajan Anandan, Saurabh Srivastava author new book on India’s startup ecosystem Entrackr",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Create cybersecurity tools tailored for Indian SMEs that handle compliance with local data protection laws.",
-      "solution": "Align with DPDP Act requirements. Offer compliance-as-a-service for businesses handling citizen data.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "16fe4f2dce4f",
-      "title": "India & Japan to Deepen Startup, Deep-Tech Coop",
-      "summary": "India & Japan to Deepen Startup, Deep-Tech Coop https://www.fintechbiznews.com/",
-      "category": "technology",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "India's digital divide is driven by uneven internet penetration, low digital literacy in rural areas, insufficient tech infrastructure in smaller cities, and regulatory complexity for startups.",
-      "business_opportunity": "Develop low-cost IoT solutions for agriculture, enabling precision farming for smallholder farmers.",
-      "solution": "Partner with KVKs (Krishi Vigyan Kendras) for farmer onboarding. Use satellite + drone data for insights.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "90a2ec03bf18",
-      "title": "Explainer: What is regenerative agriculture and why does India need it?",
-      "summary": "Explainer: What is regenerative agriculture and why does India need it? DD News",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Launch a cold chain logistics network for perishable produce in underserved rural corridors.",
-      "solution": "Apply for NABARD grants for cold chain infrastructure. Partner with Kisan Rails for long-distance transport.",
-      "market_potential": "medium"
-    },
-    {
-      "id": "bfbe515c9c35",
-      "title": "Maharashtra agri dept task force calls for crop diversification, timely credit to tackle farmer suicides",
-      "summary": "Maharashtra agri dept task force calls for crop diversification, timely credit to tackle farmer suicides The Times of India",
-      "category": "agriculture",
-      "source": "Google News",
-      "date": "2026-10-09",
-      "root_cause": "Farm distress is rooted in fragmented landholdings, dependence on monsoons, lack of cold chain infrastructure, exploitative middlemen, inadequate crop insurance, and poor access to credit and modern technology.",
-      "business_opportunity": "Create a direct farm-to-consumer marketplace eliminating middlemen and ensuring fair prices.",
-      "solution": "Integrate with eNAM (National Agriculture Market) for price discovery. Use FPO networks for farmer onboarding.",
       "market_potential": "medium"
     }
   ]
